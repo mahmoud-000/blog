@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Dev Mahmoud</title>
+    <link>//localhost:1313/tags/</link>
+    <description>Recent content in Tags on Dev Mahmoud</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Mahmoud Adel</copyright>
+    <lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eloquent</title>
+      <link>//localhost:1313/tags/eloquent/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/eloquent/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Laravel10</title>
+      <link>//localhost:1313/tags/laravel10/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/laravel10/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Relationships</title>
+      <link>//localhost:1313/tags/relationships/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/relationships/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Full Stack</title>
+      <link>//localhost:1313/tags/full-stack/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/full-stack/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Spa</title>
+      <link>//localhost:1313/tags/spa/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/spa/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Vue3</title>
+      <link>//localhost:1313/tags/vue3/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/vue3/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
