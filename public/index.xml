@@ -2,318 +2,318 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dev Mahmoud</title>
-    <link>//localhost:1313/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content on Dev Mahmoud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Mahmoud Adel</copyright>
-    <lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CRM Laravel &amp; Vue 2 - Fullstack Project</title>
-      <link>//localhost:1313/portfolio/crm-laravel-vue2-fullstack-project/</link>
+      <link>http://localhost:1313/blog/portfolio/crm-laravel-vue2-fullstack-project/</link>
       <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/portfolio/crm-laravel-vue2-fullstack-project/</guid>
+      <guid>http://localhost:1313/blog/portfolio/crm-laravel-vue2-fullstack-project/</guid>
       <description>This system is the biggest thing I have worked on, but I did not finish it because I moved from using Vuetify to the Quasar framework because Vuetify did not support version 3 of Vue at that time.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/portfolio/crm-laravel-vue2-fullstack-project/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/portfolio/crm-laravel-vue2-fullstack-project/featured.jpeg" />
     </item>
     
     <item>
       <title>Institute Management Laravel System - Fullstack Project</title>
-      <link>//localhost:1313/portfolio/institute-management-laravel-system-fullstack-project/</link>
+      <link>http://localhost:1313/blog/portfolio/institute-management-laravel-system-fullstack-project/</link>
       <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/portfolio/institute-management-laravel-system-fullstack-project/</guid>
+      <guid>http://localhost:1313/blog/portfolio/institute-management-laravel-system-fullstack-project/</guid>
       <description>The Institute management system that I designed and developed with my friend Mohamed Tersawy using PHP Framework Laravel 8.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/portfolio/institute-management-laravel-system-fullstack-project/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/portfolio/institute-management-laravel-system-fullstack-project/featured.jpeg" />
     </item>
     
     <item>
       <title>CRM PHP - Fullstack Project</title>
-      <link>//localhost:1313/portfolio/crm-php-fullstack-project/</link>
+      <link>http://localhost:1313/blog/portfolio/crm-php-fullstack-project/</link>
       <pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/portfolio/crm-php-fullstack-project/</guid>
+      <guid>http://localhost:1313/blog/portfolio/crm-php-fullstack-project/</guid>
       <description>The first crm program that I designed and developed using PHP without using any framework.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/portfolio/crm-php-fullstack-project/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/portfolio/crm-php-fullstack-project/featured.jpeg" />
     </item>
     
     <item>
       <title>Excel To PDF - Frontend Project</title>
-      <link>//localhost:1313/portfolio/excel-to-pdf-frontend-project/</link>
+      <link>http://localhost:1313/blog/portfolio/excel-to-pdf-frontend-project/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/portfolio/excel-to-pdf-frontend-project/</guid>
+      <guid>http://localhost:1313/blog/portfolio/excel-to-pdf-frontend-project/</guid>
       <description>A small tool created to convert excel data to pdf.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/portfolio/excel-to-pdf-frontend-project/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/portfolio/excel-to-pdf-frontend-project/featured.jpeg" />
     </item>
     
     <item>
       <title>Nuxt Wind Theme - Frontend Project</title>
-      <link>//localhost:1313/portfolio/nuxt-wind-theme-frontend-project/</link>
+      <link>http://localhost:1313/blog/portfolio/nuxt-wind-theme-frontend-project/</link>
       <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/portfolio/nuxt-wind-theme-frontend-project/</guid>
+      <guid>http://localhost:1313/blog/portfolio/nuxt-wind-theme-frontend-project/</guid>
       <description>A personal website theme powered by Nuxt Content, TailwindCSS, Iconify and Vue components.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/portfolio/nuxt-wind-theme-frontend-project/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/portfolio/nuxt-wind-theme-frontend-project/featured.jpeg" />
     </item>
     
     <item>
       <title>Simple Shop - Frontend Project</title>
-      <link>//localhost:1313/portfolio/simple-shop-frontend-project/</link>
+      <link>http://localhost:1313/blog/portfolio/simple-shop-frontend-project/</link>
       <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/portfolio/simple-shop-frontend-project/</guid>
+      <guid>http://localhost:1313/blog/portfolio/simple-shop-frontend-project/</guid>
       <description>A Simple Shop Template.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/portfolio/simple-shop-frontend-project/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/portfolio/simple-shop-frontend-project/featured.jpeg" />
     </item>
     
     <item>
       <title>Spiru Lin Landing Page - Frontend Project</title>
-      <link>//localhost:1313/portfolio/spiru-lin-landing-page-frontend-project/</link>
+      <link>http://localhost:1313/blog/portfolio/spiru-lin-landing-page-frontend-project/</link>
       <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/portfolio/spiru-lin-landing-page-frontend-project/</guid>
+      <guid>http://localhost:1313/blog/portfolio/spiru-lin-landing-page-frontend-project/</guid>
       <description>An 12-section landing page created for the purpose of selling the Natural product.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/portfolio/spiru-lin-landing-page-frontend-project/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/portfolio/spiru-lin-landing-page-frontend-project/featured.jpeg" />
     </item>
     
     <item>
       <title>Goji Cream 2 Landing Page - Frontend Project</title>
-      <link>//localhost:1313/portfolio/goji-cream-2-landing-page-frontend-project/</link>
+      <link>http://localhost:1313/blog/portfolio/goji-cream-2-landing-page-frontend-project/</link>
       <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/portfolio/goji-cream-2-landing-page-frontend-project/</guid>
+      <guid>http://localhost:1313/blog/portfolio/goji-cream-2-landing-page-frontend-project/</guid>
       <description>An 4-section landing page created for the purpose of selling the Natural product.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/portfolio/goji-cream-2-landing-page-frontend-project/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/portfolio/goji-cream-2-landing-page-frontend-project/featured.jpeg" />
     </item>
     
     <item>
       <title>Wellness Landing Page - Frontend Project</title>
-      <link>//localhost:1313/portfolio/wellness-landing-page-frontend-project/</link>
+      <link>http://localhost:1313/blog/portfolio/wellness-landing-page-frontend-project/</link>
       <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/portfolio/wellness-landing-page-frontend-project/</guid>
+      <guid>http://localhost:1313/blog/portfolio/wellness-landing-page-frontend-project/</guid>
       <description>An 8-section landing page created for the purpose of selling the Natural products.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/portfolio/wellness-landing-page-frontend-project/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/portfolio/wellness-landing-page-frontend-project/featured.jpeg" />
     </item>
     
     <item>
       <title>Golden Landing Page - Frontend Project</title>
-      <link>//localhost:1313/portfolio/golden-landing-page-frontend-project/</link>
+      <link>http://localhost:1313/blog/portfolio/golden-landing-page-frontend-project/</link>
       <pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/portfolio/golden-landing-page-frontend-project/</guid>
+      <guid>http://localhost:1313/blog/portfolio/golden-landing-page-frontend-project/</guid>
       <description>An 7-section landing page created for the purpose of selling the Natural product.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/portfolio/golden-landing-page-frontend-project/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/portfolio/golden-landing-page-frontend-project/featured.jpeg" />
     </item>
     
     <item>
       <title>Golden Wapp Design Landing Page - Frontend Project</title>
-      <link>//localhost:1313/portfolio/golden-wapp-design-landing-page-frontend-project/</link>
+      <link>http://localhost:1313/blog/portfolio/golden-wapp-design-landing-page-frontend-project/</link>
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/portfolio/golden-wapp-design-landing-page-frontend-project/</guid>
+      <guid>http://localhost:1313/blog/portfolio/golden-wapp-design-landing-page-frontend-project/</guid>
       <description>An 7-section landing page created for the purpose of selling the Natural product.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/portfolio/golden-wapp-design-landing-page-frontend-project/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/portfolio/golden-wapp-design-landing-page-frontend-project/featured.jpeg" />
     </item>
     
     <item>
       <title>CaviarMask Landing Page - Frontend Project</title>
-      <link>//localhost:1313/portfolio/caviarmask-landing-page-frontend-project/</link>
+      <link>http://localhost:1313/blog/portfolio/caviarmask-landing-page-frontend-project/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/portfolio/caviarmask-landing-page-frontend-project/</guid>
+      <guid>http://localhost:1313/blog/portfolio/caviarmask-landing-page-frontend-project/</guid>
       <description>An 8-section landing page created for the purpose of selling the Natural product.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/portfolio/caviarmask-landing-page-frontend-project/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/portfolio/caviarmask-landing-page-frontend-project/featured.jpeg" />
     </item>
     
     <item>
       <title>Unicode Landing Page - Frontend Project</title>
-      <link>//localhost:1313/portfolio/unicode-landing-page-frontend-project/</link>
+      <link>http://localhost:1313/blog/portfolio/unicode-landing-page-frontend-project/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/portfolio/unicode-landing-page-frontend-project/</guid>
+      <guid>http://localhost:1313/blog/portfolio/unicode-landing-page-frontend-project/</guid>
       <description>An 8-section landing page created for the purpose of the exercise</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/portfolio/unicode-landing-page-frontend-project/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/portfolio/unicode-landing-page-frontend-project/featured.png" />
     </item>
     
     <item>
       <title>Personal Landing Page - Frontend Project</title>
-      <link>//localhost:1313/portfolio/personal-landing-page-frontend-project/</link>
+      <link>http://localhost:1313/blog/portfolio/personal-landing-page-frontend-project/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/portfolio/personal-landing-page-frontend-project/</guid>
+      <guid>http://localhost:1313/blog/portfolio/personal-landing-page-frontend-project/</guid>
       <description>An 8-section landing page created for the purpose of the exercise</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/portfolio/personal-landing-page-frontend-project/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/portfolio/personal-landing-page-frontend-project/featured.png" />
     </item>
     
     <item>
       <title>How to delete data from one to many relationship in Laravel?</title>
-      <link>//localhost:1313/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/</link>
       <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/</guid>
       <description>How to delete data from one-to-many relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How to update a one-to-many relationship in Laravel?</title>
-      <link>//localhost:1313/blog/how-to-update-a-one-to-many-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/how-to-update-a-one-to-many-relationship-in-laravel/</link>
       <pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-to-update-a-one-to-many-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/how-to-update-a-one-to-many-relationship-in-laravel/</guid>
       <description>How to update one to many relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-to-update-a-one-to-many-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-to-update-a-one-to-many-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How can you retrieve data from a one-to-many relationship in Laravel?</title>
-      <link>//localhost:1313/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</guid>
       <description>How do you retrieve data from one to many relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How to insert data in one to many relationship in database?</title>
-      <link>//localhost:1313/blog/how-to-insert-data-in-one-to-many-relationship-in-database/</link>
+      <link>http://localhost:1313/blog/blog/how-to-insert-data-in-one-to-many-relationship-in-database/</link>
       <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-to-insert-data-in-one-to-many-relationship-in-database/</guid>
+      <guid>http://localhost:1313/blog/blog/how-to-insert-data-in-one-to-many-relationship-in-database/</guid>
       <description>How to insert data in a one-to-many relationship in the database?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-to-insert-data-in-one-to-many-relationship-in-database/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-to-insert-data-in-one-to-many-relationship-in-database/featured.png" />
     </item>
     
     <item>
       <title>How to create a One-To-Many relationship in Laravel?</title>
-      <link>//localhost:1313/blog/how-to-create-a-one-to-many-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/how-to-create-a-one-to-many-relationship-in-laravel/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-to-create-a-one-to-many-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/how-to-create-a-one-to-many-relationship-in-laravel/</guid>
       <description>After we learned about the types of relationships within Laravel in the previous part.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-to-create-a-one-to-many-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-to-create-a-one-to-many-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How to delete data from one to one relationship in Laravel?</title>
-      <link>//localhost:1313/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/</guid>
       <description>How to delete data from one to one relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How to update a one-to-one relationship in Laravel?</title>
-      <link>//localhost:1313/blog/how-to-update-a-one-to-one-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/how-to-update-a-one-to-one-relationship-in-laravel/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-to-update-a-one-to-one-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/how-to-update-a-one-to-one-relationship-in-laravel/</guid>
       <description>How to update one to many relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-to-update-a-one-to-one-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-to-update-a-one-to-one-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How can you retrieve data from a one-to-one relationship in Laravel?</title>
-      <link>//localhost:1313/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/</link>
       <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/</guid>
       <description>How can you retrieve data from a one-to-one relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How to insert data in one to one relationship in database?</title>
-      <link>//localhost:1313/blog/how-to-insert-data-in-one-to-one-relationship-in-database/</link>
+      <link>http://localhost:1313/blog/blog/how-to-insert-data-in-one-to-one-relationship-in-database/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-to-insert-data-in-one-to-one-relationship-in-database/</guid>
+      <guid>http://localhost:1313/blog/blog/how-to-insert-data-in-one-to-one-relationship-in-database/</guid>
       <description>How to insert data in one to one relationship in database?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-to-insert-data-in-one-to-one-relationship-in-database/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-to-insert-data-in-one-to-one-relationship-in-database/featured.png" />
     </item>
     
     <item>
       <title>How to create a One-To-One relationship in Laravel?</title>
-      <link>//localhost:1313/blog/how-to-create-a-one-to-one-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/how-to-create-a-one-to-one-relationship-in-laravel/</link>
       <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-to-create-a-one-to-one-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/how-to-create-a-one-to-one-relationship-in-laravel/</guid>
       <description>How to create a One-To-One relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-to-create-a-one-to-one-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-to-create-a-one-to-one-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>What types of relationships are there in Laravel?</title>
-      <link>//localhost:1313/blog/what-types-of-relationships-are-there-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/what-types-of-relationships-are-there-in-laravel/</link>
       <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/what-types-of-relationships-are-there-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/what-types-of-relationships-are-there-in-laravel/</guid>
       <description>Often, developers need to interact with databases.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/what-types-of-relationships-are-there-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/what-types-of-relationships-are-there-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How To Install Vue 3 In Laravel 10 With Vite</title>
-      <link>//localhost:1313/blog/how-to-install-vue3-in-laravel10-with-vite/</link>
+      <link>http://localhost:1313/blog/blog/how-to-install-vue3-in-laravel10-with-vite/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-to-install-vue3-in-laravel10-with-vite/</guid>
+      <guid>http://localhost:1313/blog/blog/how-to-install-vue3-in-laravel10-with-vite/</guid>
       <description>Preview # Laravel 10 Vue 3 What is Laravel # Laravel is a web application framework with expressive, elegant syntax.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-to-install-vue3-in-laravel10-with-vite/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-to-install-vue3-in-laravel10-with-vite/featured.png" />
     </item>
     
     <item>
       <title>About Us</title>
-      <link>//localhost:1313/about-us/</link>
+      <link>http://localhost:1313/blog/about-us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/about-us/</guid>
+      <guid>http://localhost:1313/blog/about-us/</guid>
       <description>Hi, I&amp;rsquo;m Mahmoud Adel.</description>
       
     </item>
     
     <item>
       <title>Contact Us</title>
-      <link>//localhost:1313/contact-us/</link>
+      <link>http://localhost:1313/blog/contact-us/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/contact-us/</guid>
+      <guid>http://localhost:1313/blog/contact-us/</guid>
       <description> Go to form</description>
       
     </item>
     
     <item>
       <title>Privacy Policy</title>
-      <link>//localhost:1313/privacy-policy/</link>
+      <link>http://localhost:1313/blog/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/privacy-policy/</guid>
+      <guid>http://localhost:1313/blog/privacy-policy/</guid>
       <description>At Laravel SPA, accessible from http://laravelspa.</description>
       
     </item>
     
     <item>
       <title>Subscribe Me</title>
-      <link>//localhost:1313/subscribe/</link>
+      <link>http://localhost:1313/blog/subscribe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/subscribe/</guid>
+      <guid>http://localhost:1313/blog/subscribe/</guid>
       <description>Thank you for reading my blog!</description>
       
     </item>
     
     <item>
       <title>Terms and Conditions</title>
-      <link>//localhost:1313/terms-and-conditions/</link>
+      <link>http://localhost:1313/blog/terms-and-conditions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/terms-and-conditions/</guid>
+      <guid>http://localhost:1313/blog/terms-and-conditions/</guid>
       <description>Welcome to Laravel SPA!</description>
       
     </item>

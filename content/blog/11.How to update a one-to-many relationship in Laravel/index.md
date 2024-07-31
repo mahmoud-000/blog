@@ -11,7 +11,7 @@ series: ['Laravel Eloquent Relationships']
 series_order: 10
 ---
 
-![How to update one to many relationship in Laravel?](/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel.png "How to update one to many relationship in Laravel?")
+![How to update one to many relationship in Laravel?](/blog/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel.png "How to update one to many relationship in Laravel?")
 ### Update data using the user form.
 
 1. Using ***`push method`***.

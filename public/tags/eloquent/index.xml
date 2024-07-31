@@ -2,120 +2,120 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eloquent on Dev Mahmoud</title>
-    <link>//localhost:1313/tags/eloquent/</link>
+    <link>http://localhost:1313/blog/tags/eloquent/</link>
     <description>Recent content in Eloquent on Dev Mahmoud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Mahmoud Adel</copyright>
-    <lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/eloquent/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/eloquent/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to delete data from one to many relationship in Laravel?</title>
-      <link>//localhost:1313/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/</link>
       <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/</guid>
       <description>How to delete data from one-to-many relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How to update a one-to-many relationship in Laravel?</title>
-      <link>//localhost:1313/blog/how-to-update-a-one-to-many-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/how-to-update-a-one-to-many-relationship-in-laravel/</link>
       <pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-to-update-a-one-to-many-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/how-to-update-a-one-to-many-relationship-in-laravel/</guid>
       <description>How to update one to many relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-to-update-a-one-to-many-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-to-update-a-one-to-many-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How can you retrieve data from a one-to-many relationship in Laravel?</title>
-      <link>//localhost:1313/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</guid>
       <description>How do you retrieve data from one to many relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How to insert data in one to many relationship in database?</title>
-      <link>//localhost:1313/blog/how-to-insert-data-in-one-to-many-relationship-in-database/</link>
+      <link>http://localhost:1313/blog/blog/how-to-insert-data-in-one-to-many-relationship-in-database/</link>
       <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-to-insert-data-in-one-to-many-relationship-in-database/</guid>
+      <guid>http://localhost:1313/blog/blog/how-to-insert-data-in-one-to-many-relationship-in-database/</guid>
       <description>How to insert data in a one-to-many relationship in the database?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-to-insert-data-in-one-to-many-relationship-in-database/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-to-insert-data-in-one-to-many-relationship-in-database/featured.png" />
     </item>
     
     <item>
       <title>How to create a One-To-Many relationship in Laravel?</title>
-      <link>//localhost:1313/blog/how-to-create-a-one-to-many-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/how-to-create-a-one-to-many-relationship-in-laravel/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-to-create-a-one-to-many-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/how-to-create-a-one-to-many-relationship-in-laravel/</guid>
       <description>After we learned about the types of relationships within Laravel in the previous part.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-to-create-a-one-to-many-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-to-create-a-one-to-many-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How to delete data from one to one relationship in Laravel?</title>
-      <link>//localhost:1313/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/</guid>
       <description>How to delete data from one to one relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How to update a one-to-one relationship in Laravel?</title>
-      <link>//localhost:1313/blog/how-to-update-a-one-to-one-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/how-to-update-a-one-to-one-relationship-in-laravel/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-to-update-a-one-to-one-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/how-to-update-a-one-to-one-relationship-in-laravel/</guid>
       <description>How to update one to many relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-to-update-a-one-to-one-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-to-update-a-one-to-one-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How can you retrieve data from a one-to-one relationship in Laravel?</title>
-      <link>//localhost:1313/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/</link>
       <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/</guid>
       <description>How can you retrieve data from a one-to-one relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How to insert data in one to one relationship in database?</title>
-      <link>//localhost:1313/blog/how-to-insert-data-in-one-to-one-relationship-in-database/</link>
+      <link>http://localhost:1313/blog/blog/how-to-insert-data-in-one-to-one-relationship-in-database/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-to-insert-data-in-one-to-one-relationship-in-database/</guid>
+      <guid>http://localhost:1313/blog/blog/how-to-insert-data-in-one-to-one-relationship-in-database/</guid>
       <description>How to insert data in one to one relationship in database?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-to-insert-data-in-one-to-one-relationship-in-database/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-to-insert-data-in-one-to-one-relationship-in-database/featured.png" />
     </item>
     
     <item>
       <title>How to create a One-To-One relationship in Laravel?</title>
-      <link>//localhost:1313/blog/how-to-create-a-one-to-one-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/how-to-create-a-one-to-one-relationship-in-laravel/</link>
       <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/how-to-create-a-one-to-one-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/how-to-create-a-one-to-one-relationship-in-laravel/</guid>
       <description>How to create a One-To-One relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/how-to-create-a-one-to-one-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/how-to-create-a-one-to-one-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>What types of relationships are there in Laravel?</title>
-      <link>//localhost:1313/blog/what-types-of-relationships-are-there-in-laravel/</link>
+      <link>http://localhost:1313/blog/blog/what-types-of-relationships-are-there-in-laravel/</link>
       <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/blog/what-types-of-relationships-are-there-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/blog/what-types-of-relationships-are-there-in-laravel/</guid>
       <description>Often, developers need to interact with databases.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/blog/what-types-of-relationships-are-there-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/blog/what-types-of-relationships-are-there-in-laravel/featured.png" />
     </item>
     
   </channel>
