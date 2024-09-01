@@ -28,3 +28,4 @@ Demo
 {{< /button >}}
 
 ---
+Click here to visit [Github Repo](https://github.com/laravelspa/Golden-Wapp-Design-Landing-Page)
