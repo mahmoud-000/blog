@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Mahmoud Adel</copyright>
-    <lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Certificate PHP - Fullstack Project</title>
+      <link>http://localhost:1313/blog/portfolio/certificate-php-fullstack-project/</link>
+      <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/portfolio/certificate-php-fullstack-project/</guid>
+      <description>Certificate System.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/portfolio/certificate-php-fullstack-project/featured.jpeg" />
+    </item>
+    
     <item>
       <title>CRM Laravel &amp; Vue 2 - Fullstack Project</title>
       <link>http://localhost:1313/blog/portfolio/crm-laravel-vue2-fullstack-project/</link>

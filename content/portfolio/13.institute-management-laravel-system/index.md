@@ -52,3 +52,30 @@ with clean code.
 - **Read Excel File**
 
 ---
+
+# Installation and Configuration
+- Copy .env.example file to .env file
+```bash
+  cp .env.example .env
+```
+- Find .env file in root directory and change the APP_URL param to your domain.
+- Also, Configure the Database parameters inside .env file.
+
+```bash
+  php artisan route:clear
+  php artisan migrate:fresh --seed
+  php artisan serve
+```
+
+# access account
+- Owner account
+Username: owner
+Password: owner
+
+- Admin account
+Username: admin
+Password: admin
+
+- Teacher account
+Username: teacher
+Password: teacher

@@ -3,19 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/blog/portfolio/crm-laravel-vue2-fullstack-project/</loc>
-    <lastmod>2023-11-10T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/portfolio/certificate-php-fullstack-project/</loc>
+    <lastmod>2023-11-18T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2023-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-11-18T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/blog/portfolio/</loc>
+    <lastmod>2023-11-18T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/portfolio/crm-laravel-vue2-fullstack-project/</loc>
     <lastmod>2023-11-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
