@@ -29,3 +29,5 @@ Demo
 {{< /button >}}
 
 ---
+
+Click here to visit [Github Repo](https://github.com/laravelspa/Wellness-Landing-Page)
