@@ -79,3 +79,6 @@ Password: admin
 - Teacher account
 Username: teacher
 Password: teacher
+
+---
+Click here to visit [Github Repo](https://github.com/laravelspa/courses)
