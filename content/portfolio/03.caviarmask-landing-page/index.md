@@ -5,7 +5,7 @@ date: 2023-10-27
 ---
 An 8-section landing page created for the purpose of selling the Natural product.
 
-![CaviarMask Landing Page](/img/portfolio/caviarmask-landing-page/full-page.jpeg "CaviarMask Landing Page")
+![CaviarMask Landing Page](/blog/img/portfolio/caviarmask-landing-page/full-page.jpeg "CaviarMask Landing Page")
 
 ## Languages
 - **HTML** (Markup Language)

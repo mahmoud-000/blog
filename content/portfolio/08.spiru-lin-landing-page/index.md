@@ -5,7 +5,7 @@ date: 2023-11-04
 ---
 An 12-section landing page created for the purpose of selling the Natural product.
 
-![Spiru Lin Landing Page](/img/portfolio/spiru-lin-landing-page/full-page.jpeg "Spiru Lin Landing Page")
+![Spiru Lin Landing Page](/blog/img/portfolio/spiru-lin-landing-page/full-page.jpeg "Spiru Lin Landing Page")
 
 ## Languages
 - **HTML** (Markup Language)

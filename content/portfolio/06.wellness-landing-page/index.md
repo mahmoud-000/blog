@@ -6,7 +6,7 @@ date: 2023-10-30
 An 8-section landing page created for the purpose of selling the Natural products.
 
 
-![Wellness Landing Page](/img/portfolio/wellness-landing-page/full-page.jpeg "Wellness Landing Page")
+![Wellness Landing Page](/blog/img/portfolio/wellness-landing-page/full-page.jpeg "Wellness Landing Page")
 
 ## Requirements
 - Node v16.20.0

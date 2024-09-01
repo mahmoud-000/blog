@@ -5,7 +5,7 @@ date: 2023-10-28
 ---
 An 7-section landing page created for the purpose of selling the Natural product.
 
-![Golden Wapp Design Landing Page](/img/portfolio/golden-wapp-design-landing-page/full-page.jpeg "Golden Wapp Design Landing Page")
+![Golden Wapp Design Landing Page](/blog/img/portfolio/golden-wapp-design-landing-page/full-page.jpeg "Golden Wapp Design Landing Page")
 
 ## Requirements
 - Node v16.20.0

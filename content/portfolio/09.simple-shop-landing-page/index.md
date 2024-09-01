@@ -5,7 +5,7 @@ date: 2023-11-05
 ---
 A Simple Shop Template.
 
-![Simple Shop](/img/portfolio/simple-shop/full-page.jpeg "Simple Shop")
+![Simple Shop](/blog/img/portfolio/simple-shop/full-page.jpeg "Simple Shop")
 
 ## Languages
 - **HTML** (Markup Language)

@@ -5,9 +5,9 @@ date: 2023-11-07
 ---
 A small tool created to convert excel data to pdf.
 
-![Excel To PDF](/img/portfolio/excel-to-pdf/main.jpeg "Excel To PDF")
-![Excel To PDF](/img/portfolio/excel-to-pdf/form.jpeg "Excel To PDF")
-![Excel To PDF](/img/portfolio/excel-to-pdf/export-to-pdf-or-image.jpeg "Excel To PDF")
+![Excel To PDF](/blog/img/portfolio/excel-to-pdf/main.jpeg "Excel To PDF")
+![Excel To PDF](/blog/img/portfolio/excel-to-pdf/form.jpeg "Excel To PDF")
+![Excel To PDF](/blog/img/portfolio/excel-to-pdf/export-to-pdf-or-image.jpeg "Excel To PDF")
 
 ## Languages
 - **HTML** (Markup Language)

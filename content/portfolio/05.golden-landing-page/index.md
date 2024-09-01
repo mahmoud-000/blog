@@ -5,7 +5,7 @@ date: 2023-10-29
 ---
 An 7-section landing page created for the purpose of selling the Natural product.
 
-![Golden Landing Page](/img/portfolio/golden-landing-page/full-page.jpeg "Golden Landing Page")
+![Golden Landing Page](/blog/img/portfolio/golden-landing-page/full-page.jpeg "Golden Landing Page")
 
 ## Requirements
 - Node v16.20.0

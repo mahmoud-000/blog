@@ -5,7 +5,7 @@ date: 2023-10-26
 ---
 An 8-section landing page created for the purpose of the exercise
 
-![Unicode Landing Page](/img/portfolio/unicode-landing-page/full-page.jpeg "unicode Landing Page")
+![Unicode Landing Page](/blog/img/portfolio/unicode-landing-page/full-page.jpeg "unicode Landing Page")
 
 ## Languages
 - **HTML** (Markup Language)

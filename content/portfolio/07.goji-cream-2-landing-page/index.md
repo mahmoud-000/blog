@@ -5,7 +5,7 @@ date: 2023-11-03
 ---
 An 4-section landing page created for the purpose of selling the Natural product.
 
-![Goji Cream Landing Page](/img/portfolio/goji-cream-2-landing-page/full-page.jpeg "Goji Cream Landing Page")
+![Goji Cream Landing Page](/blog/img/portfolio/goji-cream-2-landing-page/full-page.jpeg "Goji Cream Landing Page")
 
 ## Languages
 - **HTML** (Markup Language)
