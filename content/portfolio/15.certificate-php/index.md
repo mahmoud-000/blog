@@ -5,14 +5,14 @@ date: 2023-11-18
 ---
 Certificate System. convert data to pdf.
 
-![Certificate PHP](/img/portfolio/certificate-php/login.png "Certificate PHP")
-![Certificate PHP](/img/portfolio/certificate-php/users.png "Certificate PHP")
-![Certificate PHP](/img/portfolio/certificate-php/create_user.png "Certificate PHP")
-![Certificate PHP](/img/portfolio/certificate-php/certificate.png "Certificate PHP")
-![Certificate PHP](/img/portfolio/certificate-php/creare_certificate.png "Certificate PHP")
-![Certificate PHP](/img/portfolio/certificate-php/show_certificate.png "Certificate PHP")
-![Certificate PHP](/img/portfolio/certificate-php/print_certificate.png "Certificate PHP")
-![Certificate PHP](/img/portfolio/certificate-php/success_print.png "Certificate PHP")
+![Certificate PHP](/blog/img/portfolio/certificate-php/login.png "Certificate PHP")
+![Certificate PHP](/blog/img/portfolio/certificate-php/users.png "Certificate PHP")
+![Certificate PHP](/blog/img/portfolio/certificate-php/create_user.png "Certificate PHP")
+![Certificate PHP](/blog/img/portfolio/certificate-php/certificates.png "Certificate PHP")
+![Certificate PHP](/blog/img/portfolio/certificate-php/create_certificate.png "Certificate PHP")
+![Certificate PHP](/blog/img/portfolio/certificate-php/show_certificate.png "Certificate PHP")
+![Certificate PHP](/blog/img/portfolio/certificate-php/print_certificate.png "Certificate PHP")
+![Certificate PHP](/blog/img/portfolio/certificate-php/success_print.png "Certificate PHP")
 
 ## Requirements
 - PHP ^8.2
