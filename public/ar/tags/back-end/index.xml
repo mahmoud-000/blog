@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Back-End on Dev Mahmoud</title>
-    <link>http://localhost:1313/blog/ar/tags/back-end/</link>
+    <link>https://Mahmoud-FullStackee.github.io/blog/ar/tags/back-end/</link>
     <description>Recent content in Back-End on Dev Mahmoud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ar</language>
     <copyright>© 2024 Mahmoud Adel</copyright>
-    <lastBuildDate>Tue, 19 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/ar/tags/back-end/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Mahmoud-FullStackee.github.io/blog/ar/tags/back-end/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>كيف تصبح مطور باك إند - Back-End فى 2025</title>
-      <link>http://localhost:1313/blog/ar/posts/how-to-become-backend-developer/</link>
+      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-become-backend-developer/</link>
       <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/ar/posts/how-to-become-backend-developer/</guid>
+      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-become-backend-developer/</guid>
       <description>في عالم البرمجة وتطوير التطبيقات، يلعب الباك إند دورًا محوريًا في إدارة البيانات وضمان عمل الأنظمة بسلاسة خلف الكواليس.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/how-to-become-backend-developer/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-become-backend-developer/featured.png" />
     </item>
     
   </channel>

@@ -76,3 +76,63 @@
   "articleBody": ""
 }
 </script>
+
+
+<script>
+      document.querySelectorAll(&#39;.faq-question&#39;).forEach(button =&gt; {
+        button.addEventListener(&#39;click&#39;, () =&gt; {
+          const answer = button.nextElementSibling;
+          const isOpen = answer.style.display === &#39;block&#39;;
+          document.querySelectorAll(&#39;.faq-answer&#39;).forEach(ans =&gt; ans.style.display = &#39;none&#39;);
+          document.querySelectorAll(&#39;.faq-question&#39;).forEach(btn =&gt; btn.setAttribute(&#39;aria-expanded&#39;, &#39;false&#39;));
+          if (!isOpen) {
+            answer.style.display = &#39;block&#39;;
+            button.setAttribute(&#39;aria-expanded&#39;, &#39;true&#39;);
+          }
+        });
+      });
+     </script>
+
+<script>
+      document.addEventListener(&quot;DOMContentLoaded&quot;, function () {
+        const faqItems = document.querySelectorAll(&quot;.faq-item&quot;);
+        const faqSchema = {
+          &quot;@context&quot;: &quot;https://schema.org&quot;,
+          &quot;@type&quot;: &quot;FAQPage&quot;,
+          &quot;mainEntity&quot;: []
+        };
+
+        faqItems.forEach((item) =&gt; {
+          const questionElement = item.querySelector(&quot;.faq-question&quot;);
+          const answerElement = item.querySelector(&quot;.faq-answer&quot;);
+
+          // تحقق من وجود العناصر المطلوبة
+          if (questionElement &amp;&amp; answerElement) {
+            const question = questionElement.textContent.trim();
+            const answer = Array.from(answerElement.querySelectorAll(&quot;*&quot;))
+              .map((el) =&gt; el.textContent.trim())
+              .filter((text) =&gt; text.length &gt; 0)
+              .join(&quot; &quot;);
+
+            faqSchema.mainEntity.push({
+              &quot;@type&quot;: &quot;Question&quot;,
+              &quot;name&quot;: question,
+              &quot;acceptedAnswer&quot;: {
+                &quot;@type&quot;: &quot;Answer&quot;,
+                &quot;text&quot;: answer
+              }
+            });
+          }
+        });
+
+        // إضافة البيانات المنظمة إذا و&#1615;جدت أسئلة
+        if (faqItems.length) {
+          const scriptFaq = document.createElement(&quot;script&quot;);
+          scriptFaq.type = &quot;application/ld+json&quot;;
+          scriptFaq.textContent = JSON.stringify(faqSchema, null, 2);
+          document.head.appendChild(scriptFaq);
+
+          console.log(&quot;FAQ Schema added:&quot;, faqSchema);
+        }
+      });
+    </script>

@@ -2,70 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Development on Dev Mahmoud</title>
-    <link>http://localhost:1313/blog/en/categories/web-development/</link>
+    <link>https://Mahmoud-FullStackee.github.io/blog/en/categories/web-development/</link>
     <description>Recent content in Web Development on Dev Mahmoud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Mahmoud Adel</copyright>
-    <lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/en/categories/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Mahmoud-FullStackee.github.io/blog/en/categories/web-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSS from Beginner to Pro: How to Design Flexible and Stunning Web Pages</title>
-      <link>http://localhost:1313/blog/en/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/</link>
+      <link>https://Mahmoud-FullStackee.github.io/blog/en/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/en/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/</guid>
+      <guid>https://Mahmoud-FullStackee.github.io/blog/en/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/</guid>
       <description>If you want a deeper understanding of how websites and designs work, you need to look beyond the code.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/en/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/en/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/featured.png" />
     </item>
     
     <item>
       <title>Everything you need to know about Head and semantic tags in HTML</title>
-      <link>http://localhost:1313/blog/en/posts/head-and-semantic-tags-in-html/</link>
+      <link>https://Mahmoud-FullStackee.github.io/blog/en/posts/head-and-semantic-tags-in-html/</link>
       <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/en/posts/head-and-semantic-tags-in-html/</guid>
+      <guid>https://Mahmoud-FullStackee.github.io/blog/en/posts/head-and-semantic-tags-in-html/</guid>
       <description>HTML basics are one of the most important pillars that every web developer builds their website on.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/en/posts/head-and-semantic-tags-in-html/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/en/posts/head-and-semantic-tags-in-html/featured.png" />
     </item>
     
     <item>
       <title>How to Become a Back-End Developer in 2025</title>
-      <link>http://localhost:1313/blog/en/posts/how-to-become-backend-developer/</link>
+      <link>https://Mahmoud-FullStackee.github.io/blog/en/posts/how-to-become-backend-developer/</link>
       <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/en/posts/how-to-become-backend-developer/</guid>
+      <guid>https://Mahmoud-FullStackee.github.io/blog/en/posts/how-to-become-backend-developer/</guid>
       <description>In the world of programming and application development, the back-end plays a pivotal role in managing data and ensuring that systems run smoothly behind the scenes.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/en/posts/how-to-become-backend-developer/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/en/posts/how-to-become-backend-developer/featured.png" />
     </item>
     
     <item>
       <title>How to Become a Front-End Developer in 2025</title>
-      <link>http://localhost:1313/blog/en/posts/how-to-become-frontend-developer/</link>
+      <link>https://Mahmoud-FullStackee.github.io/blog/en/posts/how-to-become-frontend-developer/</link>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/en/posts/how-to-become-frontend-developer/</guid>
+      <guid>https://Mahmoud-FullStackee.github.io/blog/en/posts/how-to-become-frontend-developer/</guid>
       <description>In the modern digital age, front-end development is one of the most important skills required to create distinctive user experiences.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/en/posts/how-to-become-frontend-developer/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/en/posts/how-to-become-frontend-developer/featured.png" />
     </item>
     
     <item>
       <title>Beginner&#39;s Guide to Learn HTML: Your First Step in Web Development</title>
-      <link>http://localhost:1313/blog/en/posts/beginner-guide-learn-html/</link>
+      <link>https://Mahmoud-FullStackee.github.io/blog/en/posts/beginner-guide-learn-html/</link>
       <pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/en/posts/beginner-guide-learn-html/</guid>
+      <guid>https://Mahmoud-FullStackee.github.io/blog/en/posts/beginner-guide-learn-html/</guid>
       <description>Now that we know the basics of web development, it&amp;rsquo;s time to learn the basics of HTML, the backbone of the web development world.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/en/posts/beginner-guide-learn-html/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/en/posts/beginner-guide-learn-html/featured.png" />
     </item>
     
     <item>
       <title>Web Development 101: Basics to Kickstart Your Journey</title>
-      <link>http://localhost:1313/blog/en/posts/web-development-101-basics-to-kickstart-your-journey/</link>
+      <link>https://Mahmoud-FullStackee.github.io/blog/en/posts/web-development-101-basics-to-kickstart-your-journey/</link>
       <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/en/posts/web-development-101-basics-to-kickstart-your-journey/</guid>
+      <guid>https://Mahmoud-FullStackee.github.io/blog/en/posts/web-development-101-basics-to-kickstart-your-journey/</guid>
       <description>To start your journey of learning web programming, it is essential to have a basic understanding of programming.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/en/posts/web-development-101-basics-to-kickstart-your-journey/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/en/posts/web-development-101-basics-to-kickstart-your-journey/featured.png" />
     </item>
     
   </channel>

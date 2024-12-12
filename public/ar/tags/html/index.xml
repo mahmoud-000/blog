@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HTML on Dev Mahmoud</title>
-    <link>http://localhost:1313/blog/ar/tags/html/</link>
+    <link>https://Mahmoud-FullStackee.github.io/blog/ar/tags/html/</link>
     <description>Recent content in HTML on Dev Mahmoud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ar</language>
     <copyright>© 2024 Mahmoud Adel</copyright>
-    <lastBuildDate>Tue, 26 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/ar/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Mahmoud-FullStackee.github.io/blog/ar/tags/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>كل ما تحتاج معرفته عن وسم الـHead والوسوم الدلالية في HTML</title>
-      <link>http://localhost:1313/blog/ar/posts/head-and-semantic-tags-in-html/</link>
+      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/head-and-semantic-tags-in-html/</link>
       <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/ar/posts/head-and-semantic-tags-in-html/</guid>
+      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/head-and-semantic-tags-in-html/</guid>
       <description>تُعدّ أساسيات HTML من أهم الركائز التي يبني عليها كل مطوّر ويب موقعه.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/head-and-semantic-tags-in-html/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/head-and-semantic-tags-in-html/featured.png" />
     </item>
     
     <item>
       <title>دليل المبتدئين لتعلم HTML: أول خطوة في عالم تطوير الويب</title>
-      <link>http://localhost:1313/blog/ar/posts/beginner-guide-learn-html/</link>
+      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/beginner-guide-learn-html/</link>
       <pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/ar/posts/beginner-guide-learn-html/</guid>
+      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/beginner-guide-learn-html/</guid>
       <description>بعد أن تعرفنا على أساسيات تطوير الويب، حان الوقت لنتعلم أساسيات لغة HTML، العمود الفقري لعالم تطوير الويب.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/beginner-guide-learn-html/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/beginner-guide-learn-html/featured.png" />
     </item>
     
     <item>
       <title>تطوير الويب 101: أساسيات لبدء رحلتك فى 2025</title>
-      <link>http://localhost:1313/blog/ar/posts/web-development-101-basics-to-start-your-journey/</link>
+      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/web-development-101-basics-to-start-your-journey/</link>
       <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog/ar/posts/web-development-101-basics-to-start-your-journey/</guid>
+      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/web-development-101-basics-to-start-your-journey/</guid>
       <description>للبدء في رحلة تعلم برمجة الويب، من الضروري أن يكون لديك معرفة بأساسيات البرمجة.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/web-development-101-basics-to-start-your-journey/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/web-development-101-basics-to-start-your-journey/featured.png" />
     </item>
     
   </channel>
