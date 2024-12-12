@@ -15,7 +15,7 @@ contentDir = 'content/en'
   description = "Laravel + Vue.js: The perfect pair for full-stack development. Fast, scalable, secure, and easy to learn."
   # copyright = "Copy, _right?_ :thinking_face:"
 
-[author]
+[params.author]
   name = "Mahmoud Adel"
   image = "img/mahmoud_adel.jpg"
   headline = "Full Stack Developer"
