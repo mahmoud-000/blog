@@ -2,11 +2,13 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/getting-started/
 
- theme = "blowfish" # UNCOMMENT THIS LINE
- baseURL = "https://laravelspa.github.io/blog/"
+theme = "blowfish" # UNCOMMENT THIS LINE
+baseURL = "https://Mahmoud-FullStackee.github.io/blog/"
+
+defaultContentLanguageInSubdir = true
 defaultContentLanguage = "en"
 
-# pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
+pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
 paginate = 10

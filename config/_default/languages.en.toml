@@ -2,8 +2,10 @@ languageCode = "en"
 languageName = "English"
 weight = 1
 title = "Dev Mahmoud"
+contentDir = 'content/en'
 
-[params]
+
+[params]    
   displayName = "EN"
   isoCode = "en"
   rtl = false

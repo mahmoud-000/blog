@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Development on Dev Mahmoud</title>
+    <link>http://localhost:1313/blog/ar/categories/web-development/</link>
+    <description>Recent content in Web Development on Dev Mahmoud</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar</language>
+    <copyright>© 2024 Mahmoud Adel</copyright>
+    <lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/ar/categories/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSS من البداية إلى الاحتراف: كيف تصمم صفحات ويب مرنة ومبهرّة</title>
+      <link>http://localhost:1313/blog/ar/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/</guid>
+      <description>إذا كنت ترغب في فهم أعمق لكيفية عمل مواقع الويب والتصميمات، فأنت بحاجة إلى النظر إلى ما وراء الأكواد.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/featured.png" />
+    </item>
+    
+    <item>
+      <title>أسرار Flexbox: دليل عملي لتوزيع العناصر في CSS</title>
+      <link>http://localhost:1313/blog/ar/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/</guid>
+      <description>هل سبق وأن شعرت بالإحباط أثناء محاولة محاذاة العناصر على موقعك باستخدام CSS؟ ربما قضيت ساعات في تجربة مختلف القيم لتحديد المواقع، دون أن تصل إلى النتيجة المثالية.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/featured.png" />
+    </item>
+    
+    <item>
+      <title>هل تحتاج إلى تصميم صفحة ويب احترافية؟ تعلم CSS Grid اليوم!</title>
+      <link>http://localhost:1313/blog/ar/posts/css-grid-design-page-professionally/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/posts/css-grid-design-page-professionally/</guid>
+      <description>هل ترغب في إتقان فن ترتيب العناصر على صفحات الويب بشكل احترافي؟ إذًا، قد حان الوقت لتتعرف على قوة CSS Grid!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/css-grid-design-page-professionally/featured.png" />
+    </item>
+    
+    <item>
+      <title>كل ما تحتاج معرفته عن وسم الـHead والوسوم الدلالية في HTML</title>
+      <link>http://localhost:1313/blog/ar/posts/head-and-semantic-tags-in-html/</link>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/posts/head-and-semantic-tags-in-html/</guid>
+      <description>تُعدّ أساسيات HTML من أهم الركائز التي يبني عليها كل مطوّر ويب موقعه.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/head-and-semantic-tags-in-html/featured.png" />
+    </item>
+    
+    <item>
+      <title>كيف تصبح مطور باك إند - Back-End فى 2025</title>
+      <link>http://localhost:1313/blog/ar/posts/how-to-become-backend-developer/</link>
+      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/posts/how-to-become-backend-developer/</guid>
+      <description>في عالم البرمجة وتطوير التطبيقات، يلعب الباك إند دورًا محوريًا في إدارة البيانات وضمان عمل الأنظمة بسلاسة خلف الكواليس.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/how-to-become-backend-developer/featured.png" />
+    </item>
+    
+    <item>
+      <title>كيف تصبح مطور فرونت إند - Front-End فى 2025</title>
+      <link>http://localhost:1313/blog/ar/posts/how-to-become-frontend-developer/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/posts/how-to-become-frontend-developer/</guid>
+      <description>في العصر الرقمي الحديث، يُعتبر تطوير الواجهات الأمامية (Front-End Development) من أبرز المهارات المطلوبة لإنشاء تجارب مستخدم مميزة.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/how-to-become-frontend-developer/featured.png" />
+    </item>
+    
+    <item>
+      <title>دليل المبتدئين لتعلم HTML: أول خطوة في عالم تطوير الويب</title>
+      <link>http://localhost:1313/blog/ar/posts/beginner-guide-learn-html/</link>
+      <pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/posts/beginner-guide-learn-html/</guid>
+      <description>بعد أن تعرفنا على أساسيات تطوير الويب، حان الوقت لنتعلم أساسيات لغة HTML، العمود الفقري لعالم تطوير الويب.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/beginner-guide-learn-html/featured.png" />
+    </item>
+    
+    <item>
+      <title>تطوير الويب 101: أساسيات لبدء رحلتك فى 2025</title>
+      <link>http://localhost:1313/blog/ar/posts/web-development-101-basics-to-start-your-journey/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/posts/web-development-101-basics-to-start-your-journey/</guid>
+      <description>للبدء في رحلة تعلم برمجة الويب، من الضروري أن يكون لديك معرفة بأساسيات البرمجة.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/web-development-101-basics-to-start-your-journey/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

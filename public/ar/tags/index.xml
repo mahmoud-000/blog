@@ -1,12 +1,112 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on </title>
-    <link>//localhost:1313/ar/tags/</link>
-    <description>Recent content in Tags on </description>
+    <title>Tags on Dev Mahmoud</title>
+    <link>http://localhost:1313/blog/ar/tags/</link>
+    <description>Recent content in Tags on Dev Mahmoud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ar</language>
-    <copyright>© 2024 </copyright>
-    <atom:link href="//localhost:1313/ar/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 Mahmoud Adel</copyright>
+    <lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/ar/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSS</title>
+      <link>http://localhost:1313/blog/ar/tags/css/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/tags/css/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Front-End</title>
+      <link>http://localhost:1313/blog/ar/tags/front-end/</link>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/tags/front-end/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>http://localhost:1313/blog/ar/tags/html/</link>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/tags/html/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Back-End</title>
+      <link>http://localhost:1313/blog/ar/tags/back-end/</link>
+      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/tags/back-end/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Eloquent</title>
+      <link>http://localhost:1313/blog/ar/tags/eloquent/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/tags/eloquent/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Laravel10</title>
+      <link>http://localhost:1313/blog/ar/tags/laravel10/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/tags/laravel10/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Relationships</title>
+      <link>http://localhost:1313/blog/ar/tags/relationships/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/tags/relationships/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Full Stack</title>
+      <link>http://localhost:1313/blog/ar/tags/full-stack/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/tags/full-stack/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Spa</title>
+      <link>http://localhost:1313/blog/ar/tags/spa/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/tags/spa/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Vue3</title>
+      <link>http://localhost:1313/blog/ar/tags/vue3/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/tags/vue3/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
