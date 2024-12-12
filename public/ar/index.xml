@@ -2,210 +2,211 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dev Mahmoud</title>
-    <link>https://Mahmoud-FullStackee.github.io/blog/ar/</link>
+    <link>http://localhost:1313/blog/ar/</link>
     <description>Recent content on Dev Mahmoud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ar</language>
-    <copyright>© 2024 Mahmoud Adel</copyright>
-    <lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Mahmoud-FullStackee.github.io/blog/ar/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/ar/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>CSS من البداية إلى الاحتراف: كيف تصمم صفحات ويب مرنة ومبهرّة</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/</link>
+      <link>http://localhost:1313/blog/ar/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/</guid>
       <description>إذا كنت ترغب في فهم أعمق لكيفية عمل مواقع الويب والتصميمات، فأنت بحاجة إلى النظر إلى ما وراء الأكواد.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/featured.png" />
     </item>
     
     <item>
       <title>أسرار Flexbox: دليل عملي لتوزيع العناصر في CSS</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/</link>
+      <link>http://localhost:1313/blog/ar/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/</guid>
       <description>هل سبق وأن شعرت بالإحباط أثناء محاولة محاذاة العناصر على موقعك باستخدام CSS؟ ربما قضيت ساعات في تجربة مختلف القيم لتحديد المواقع، دون أن تصل إلى النتيجة المثالية.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/featured.png" />
     </item>
     
     <item>
       <title>هل تحتاج إلى تصميم صفحة ويب احترافية؟ تعلم CSS Grid اليوم!</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/css-grid-design-page-professionally/</link>
+      <link>http://localhost:1313/blog/ar/posts/css-grid-design-page-professionally/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/css-grid-design-page-professionally/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/css-grid-design-page-professionally/</guid>
       <description>هل ترغب في إتقان فن ترتيب العناصر على صفحات الويب بشكل احترافي؟ إذًا، قد حان الوقت لتتعرف على قوة CSS Grid!</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/css-grid-design-page-professionally/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/css-grid-design-page-professionally/featured.png" />
     </item>
     
     <item>
       <title>كل ما تحتاج معرفته عن وسم الـHead والوسوم الدلالية في HTML</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/head-and-semantic-tags-in-html/</link>
+      <link>http://localhost:1313/blog/ar/posts/head-and-semantic-tags-in-html/</link>
       <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/head-and-semantic-tags-in-html/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/head-and-semantic-tags-in-html/</guid>
       <description>تُعدّ أساسيات HTML من أهم الركائز التي يبني عليها كل مطوّر ويب موقعه.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/head-and-semantic-tags-in-html/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/head-and-semantic-tags-in-html/featured.png" />
     </item>
     
     <item>
       <title>كيف تصبح مطور باك إند - Back-End فى 2025</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-become-backend-developer/</link>
+      <link>http://localhost:1313/blog/ar/posts/how-to-become-backend-developer/</link>
       <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-become-backend-developer/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/how-to-become-backend-developer/</guid>
       <description>في عالم البرمجة وتطوير التطبيقات، يلعب الباك إند دورًا محوريًا في إدارة البيانات وضمان عمل الأنظمة بسلاسة خلف الكواليس.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-become-backend-developer/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/how-to-become-backend-developer/featured.png" />
     </item>
     
     <item>
       <title>كيف تصبح مطور فرونت إند - Front-End فى 2025</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-become-frontend-developer/</link>
+      <link>http://localhost:1313/blog/ar/posts/how-to-become-frontend-developer/</link>
       <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-become-frontend-developer/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/how-to-become-frontend-developer/</guid>
       <description>في العصر الرقمي الحديث، يُعتبر تطوير الواجهات الأمامية (Front-End Development) من أبرز المهارات المطلوبة لإنشاء تجارب مستخدم مميزة.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-become-frontend-developer/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/how-to-become-frontend-developer/featured.png" />
     </item>
     
     <item>
       <title>دليل المبتدئين لتعلم HTML: أول خطوة في عالم تطوير الويب</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/beginner-guide-learn-html/</link>
+      <link>http://localhost:1313/blog/ar/posts/beginner-guide-learn-html/</link>
       <pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/beginner-guide-learn-html/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/beginner-guide-learn-html/</guid>
       <description>بعد أن تعرفنا على أساسيات تطوير الويب، حان الوقت لنتعلم أساسيات لغة HTML، العمود الفقري لعالم تطوير الويب.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/beginner-guide-learn-html/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/beginner-guide-learn-html/featured.png" />
     </item>
     
     <item>
       <title>تطوير الويب 101: أساسيات لبدء رحلتك فى 2025</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/web-development-101-basics-to-start-your-journey/</link>
+      <link>http://localhost:1313/blog/ar/posts/web-development-101-basics-to-start-your-journey/</link>
       <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/web-development-101-basics-to-start-your-journey/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/web-development-101-basics-to-start-your-journey/</guid>
       <description>للبدء في رحلة تعلم برمجة الويب، من الضروري أن يكون لديك معرفة بأساسيات البرمجة.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/web-development-101-basics-to-start-your-journey/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/web-development-101-basics-to-start-your-journey/featured.png" />
     </item>
     
     <item>
       <title>How to delete data from one to many relationship in Laravel?</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-delete-data-from-one-to-many-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/ar/posts/how-to-delete-data-from-one-to-many-relationship-in-laravel/</link>
       <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-delete-data-from-one-to-many-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/how-to-delete-data-from-one-to-many-relationship-in-laravel/</guid>
       <description>How to delete data from one-to-many relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-delete-data-from-one-to-many-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/how-to-delete-data-from-one-to-many-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How to update a one-to-many relationship in Laravel?</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-update-a-one-to-many-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/ar/posts/how-to-update-a-one-to-many-relationship-in-laravel/</link>
       <pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-update-a-one-to-many-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/how-to-update-a-one-to-many-relationship-in-laravel/</guid>
       <description>How to update one to many relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-update-a-one-to-many-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/how-to-update-a-one-to-many-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How can you retrieve data from a one-to-many relationship in Laravel?</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/ar/posts/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</guid>
       <description>How do you retrieve data from one to many relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How to insert data in one to many relationship in database?</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-insert-data-in-one-to-many-relationship-in-database/</link>
+      <link>http://localhost:1313/blog/ar/posts/how-to-insert-data-in-one-to-many-relationship-in-database/</link>
       <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-insert-data-in-one-to-many-relationship-in-database/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/how-to-insert-data-in-one-to-many-relationship-in-database/</guid>
       <description>How to insert data in a one-to-many relationship in the database?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-insert-data-in-one-to-many-relationship-in-database/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/how-to-insert-data-in-one-to-many-relationship-in-database/featured.png" />
     </item>
     
     <item>
       <title>How to create a One-To-Many relationship in Laravel?</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-create-a-one-to-many-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/ar/posts/how-to-create-a-one-to-many-relationship-in-laravel/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-create-a-one-to-many-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/how-to-create-a-one-to-many-relationship-in-laravel/</guid>
       <description>After we learned about the types of relationships within Laravel in the previous part.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-create-a-one-to-many-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/how-to-create-a-one-to-many-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How to delete data from one to one relationship in Laravel?</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-delete-data-from-one-to-one-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/ar/posts/how-to-delete-data-from-one-to-one-relationship-in-laravel/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-delete-data-from-one-to-one-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/how-to-delete-data-from-one-to-one-relationship-in-laravel/</guid>
       <description>How to delete data from one to one relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-delete-data-from-one-to-one-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/how-to-delete-data-from-one-to-one-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How to update a one-to-one relationship in Laravel?</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-update-a-one-to-one-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/ar/posts/how-to-update-a-one-to-one-relationship-in-laravel/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-update-a-one-to-one-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/how-to-update-a-one-to-one-relationship-in-laravel/</guid>
       <description>How to update one to many relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-update-a-one-to-one-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/how-to-update-a-one-to-one-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How can you retrieve data from a one-to-one relationship in Laravel?</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/ar/posts/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/</link>
       <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/</guid>
       <description>How can you retrieve data from a one-to-one relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How to insert data in one to one relationship in database?</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-insert-data-in-one-to-one-relationship-in-database/</link>
+      <link>http://localhost:1313/blog/ar/posts/how-to-insert-data-in-one-to-one-relationship-in-database/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-insert-data-in-one-to-one-relationship-in-database/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/how-to-insert-data-in-one-to-one-relationship-in-database/</guid>
       <description>How to insert data in one to one relationship in database?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-insert-data-in-one-to-one-relationship-in-database/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/how-to-insert-data-in-one-to-one-relationship-in-database/featured.png" />
     </item>
     
     <item>
       <title>How to create a One-To-One relationship in Laravel?</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-create-a-one-to-one-relationship-in-laravel/</link>
+      <link>http://localhost:1313/blog/ar/posts/how-to-create-a-one-to-one-relationship-in-laravel/</link>
       <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-create-a-one-to-one-relationship-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/how-to-create-a-one-to-one-relationship-in-laravel/</guid>
       <description>How to create a One-To-One relationship in Laravel?</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-create-a-one-to-one-relationship-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/how-to-create-a-one-to-one-relationship-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>What types of relationships are there in Laravel?</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/what-types-of-relationships-are-there-in-laravel/</link>
+      <link>http://localhost:1313/blog/ar/posts/what-types-of-relationships-are-there-in-laravel/</link>
       <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/what-types-of-relationships-are-there-in-laravel/</guid>
+      <guid>http://localhost:1313/blog/ar/posts/what-types-of-relationships-are-there-in-laravel/</guid>
       <description>Often, developers need to interact with databases.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/what-types-of-relationships-are-there-in-laravel/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/what-types-of-relationships-are-there-in-laravel/featured.png" />
     </item>
     
     <item>
       <title>How To Install Vue 3 In Laravel 10 With Vite</title>
-      <link>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-install-vue3-in-laravel10-with-vite/</link>
+      <link>http://localhost:1313/blog/ar/posts/how-to-install-vue3-in-laravel10-with-vite/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-install-vue3-in-laravel10-with-vite/</guid>
-      <description>Preview # Laravel 10 Vue 3 What is Laravel # Laravel is a web application framework with expressive, elegant syntax.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://Mahmoud-FullStackee.github.io/blog/ar/posts/how-to-install-vue3-in-laravel10-with-vite/featured.png" />
+      <guid>http://localhost:1313/blog/ar/posts/how-to-install-vue3-in-laravel10-with-vite/</guid>
+      <description>Preview #Laravel 10 Vue 3What is Laravel #Laravel is a web application framework with expressive, elegant syntax.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/how-to-install-vue3-in-laravel10-with-vite/featured.png" />
     </item>
     
   </channel>
