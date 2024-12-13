@@ -209,5 +209,55 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/how-to-install-vue3-in-laravel10-with-vite/featured.png" />
     </item>
     
+    <item>
+      <title>الشروط والأحكام</title>
+      <link>http://localhost:1313/blog/ar/terms-and-conditions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/terms-and-conditions/</guid>
+      <description>مرحبًا بك في FullStackee!</description>
+      
+    </item>
+    
+    <item>
+      <title>تابعنى</title>
+      <link>http://localhost:1313/blog/ar/subscribe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/subscribe/</guid>
+      <description>شكرًا لك على قراءة مدونتي!</description>
+      
+    </item>
+    
+    <item>
+      <title>تواصل معى</title>
+      <link>http://localhost:1313/blog/ar/contact-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/contact-us/</guid>
+      <description>إذهب الأن الى الفورم</description>
+      
+    </item>
+    
+    <item>
+      <title>سياسة الخصوصية</title>
+      <link>http://localhost:1313/blog/ar/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/privacy-policy/</guid>
+      <description>في FullStackee، التي يمكن الوصول إليها من https://fullstackee.</description>
+      
+    </item>
+    
+    <item>
+      <title>من نحن</title>
+      <link>http://localhost:1313/blog/ar/about-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/about-us/</guid>
+      <description>مرحبًا، أنا محمود عادل.</description>
+      
+    </item>
+    
   </channel>
 </rss>

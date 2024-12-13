@@ -189,5 +189,55 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/en/posts/how-to-install-vue3-in-laravel10-with-vite/featured.png" />
     </item>
     
+    <item>
+      <title>About Us</title>
+      <link>http://localhost:1313/blog/en/about-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/en/about-us/</guid>
+      <description>Hi, I&amp;rsquo;m Mahmoud Adel.</description>
+      
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>http://localhost:1313/blog/en/contact-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/en/contact-us/</guid>
+      <description>Go to form</description>
+      
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/blog/en/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/en/privacy-policy/</guid>
+      <description>At Laravel SPA, accessible from http://laravelspa.</description>
+      
+    </item>
+    
+    <item>
+      <title>Subscribe Me</title>
+      <link>http://localhost:1313/blog/en/subscribe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/en/subscribe/</guid>
+      <description>Thank you for reading my blog!</description>
+      
+    </item>
+    
+    <item>
+      <title>Terms and Conditions</title>
+      <link>http://localhost:1313/blog/en/terms-and-conditions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/en/terms-and-conditions/</guid>
+      <description>Welcome to Laravel SPA!</description>
+      
+    </item>
+    
   </channel>
 </rss>

@@ -40,27 +40,27 @@
 # the copyright notice. Configure as per the main menu above.
 
 [[footer]]
-   name = "Privacy Policy"
+   name = "سياسة الخصوصية"
    pageRef = "privacy-policy"
    weight = 10
 
 [[footer]]
-   name = "Terms and Conditions"
+   name = "الشروط والأحكام"
    pageRef = "terms-and-conditions"
    weight = 20
 
 [[footer]]
-   name = "Subscribe"
+   name = "تابعنى"
    pageRef = "subscribe"
    weight = 30
 
 [[footer]]
-   name = "Contact Us"
+   name = "تواصل معى"
    pageRef = "contact-us"
    weight = 40
 
 [[footer]]
-   name = "About Us"
+   name = "من نحن"
    pageRef = "about-us"
    weight = 50
 

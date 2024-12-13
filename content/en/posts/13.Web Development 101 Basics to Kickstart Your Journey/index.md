@@ -92,7 +92,7 @@ These features enabled web developers and designers to implement creative ideas 
 <figure style="text-align: center;">
 <img width="100%" height="100%" style="display:block; margin:0 auto;"
 src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjApHXqpKXHVMwRwbQmM7Sv68KTijSDCBiCOclNGnwsp5ZSFgoTDDrl0oB77pa0Tvn50TxNb5ngzPPaVmpoSI5hrs4cbeJCFfroCKvHA2XC6Fc4KSp1GU52fhtzMRGSb9gXgwqLnOfY-1c3-l7S1efv09r6BKB8RyKc3-AjqgrJUsTSsXc77XRsGWZl4xY/s16000/How-do-browsers-and-servers-work-together.webp"
-alt="How Browsers and Servers Work Together
+alt="How Browsers and Servers Work Together"
 title="How Browsers and Servers Work Together"
 />
 <figcaption>How Browsers and Servers Work Together</figcaption>
