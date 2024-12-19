@@ -1,7 +1,7 @@
 ---
 title: "هل تحتاج إلى تصميم صفحة ويب احترافية؟ تعلم CSS Grid اليوم!"
 date: 2024-12-09
-draft: false
+draft: true
 slug: "css-grid-design-page-professionally"
 cascade:
   showReadingTime: true
