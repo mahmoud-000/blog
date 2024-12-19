@@ -1,0 +1,2429 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth" data-default-appearance="dark"
+  data-auto-appearance="true"><head><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  
+  <meta http-equiv="content-language" content="ar" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>دليل شامل لفهم أساسيات JavaScript: من الأنواع إلى الأدوات &middot; Dev Mahmoud</title>
+  <meta name="title" content="دليل شامل لفهم أساسيات JavaScript: من الأنواع إلى الأدوات &middot; Dev Mahmoud" />
+  
+  <meta name="description" content="تعلم أساسيات JavaScript من الأنواع المختلفة للبيانات إلى الأدوات المفيدة. ابدأ في كتابة أكوادك بثقة!" />
+  <meta name="keywords" content="Front-End, CSS, " />
+  
+  
+  <link rel="canonical" href="http://localhost:1313/blog/ar/posts/understanding-javascript-basics-from-data-types-to-tools/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link type="text/css" rel="stylesheet" href="/blog/css/main.bundle.min.e79b6cfd021d3d31367f9143b628b371307c6ba3bfb18e84aba5726138b65e50a374860de747c8e530956d18a3f9c5d98052cf70dc1399485fed9b36af75a4be.css"
+    integrity="sha512-55ts/QIdPTE2f5FDtiizcTB8a6O/sY6Eq6VyYTi2XlCjdIYN50fI5TCVbRij&#43;cXZgFLPcNwTmUhf7Zs2r3Wkvg==" />
+  
+  
+  <script type="text/javascript" src="/blog/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/blog/js/main.bundle.min.0c424ab1c6aafe2039f09c49da59e609e9c3639b293d752971a3f96bb967114eb9719493d28e382b62527c185812ddc2c5a3664a3a21d0cbab06dafccbf685e4.js"
+    integrity="sha512-DEJKscaq/iA58JxJ2lnmCenDY5spPXUpcaP5a7lnEU65cZST0o44K2JSfBhYEt3CxaNmSjoh0MurBtr8y/aF5A==" data-copy="" data-copied=""></script>
+  
+  
+  
+  <script src="/blog/lib/zoom/zoom.min.fcbc7f7b3dcea96e3b5570cd322c5d7a12d5351c87f9889b1c31745a2cc711df58f6b70795a86d50e63813b236ade916668332c10a70a4ce26f7c0878f525fce.js" integrity="sha512-/Lx/ez3OqW47VXDNMixdehLVNRyH&#43;YibHDF0WizHEd9Y9rcHlahtUOY4E7I2rekWZoMywQpwpM4m98CHj1Jfzg=="></script>
+  
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png" />
+  <link rel="manifest" href="/blog/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:1313/blog/ar/posts/understanding-javascript-basics-from-data-types-to-tools/">
+  <meta property="og:site_name" content="Dev Mahmoud">
+  <meta property="og:title" content="دليل شامل لفهم أساسيات JavaScript: من الأنواع إلى الأدوات">
+  <meta property="og:description" content="تعلم أساسيات JavaScript من الأنواع المختلفة للبيانات إلى الأدوات المفيدة. ابدأ في كتابة أكوادك بثقة!">
+  <meta property="og:locale" content="ar">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-14T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-12-14T00:00:00+00:00">
+    <meta property="article:tag" content="Front-End">
+    <meta property="article:tag" content="CSS">
+    <meta property="og:image" content="http://localhost:1313/blog/ar/posts/understanding-javascript-basics-from-data-types-to-tools/featured.png">
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/blog/ar/posts/understanding-javascript-basics-from-data-types-to-tools/featured.png">
+  <meta name="twitter:title" content="دليل شامل لفهم أساسيات JavaScript: من الأنواع إلى الأدوات">
+  <meta name="twitter:description" content="تعلم أساسيات JavaScript من الأنواع المختلفة للبيانات إلى الأدوات المفيدة. ابدأ في كتابة أكوادك بثقة!">
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "دليل شامل لفهم أساسيات JavaScript: من الأنواع إلى الأدوات",
+    "headline": "دليل شامل لفهم أساسيات JavaScript: من الأنواع إلى الأدوات",
+    "description": "تعلم أساسيات JavaScript من الأنواع المختلفة للبيانات إلى الأدوات المفيدة. ابدأ في كتابة أكوادك بثقة!",
+    "abstract": "تعلم أساسيات JavaScript من الأنواع المختلفة للبيانات إلى الأدوات المفيدة. ابدأ في كتابة أكوادك بثقة!",
+    "inLanguage": "ar",
+    "url" : "http:\/\/localhost:1313\/blog\/ar\/posts\/understanding-javascript-basics-from-data-types-to-tools\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Mahmoud Adel"
+    },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-12-14T00:00:00\u002b00:00",
+    "datePublished": "2024-12-14T00:00:00\u002b00:00",
+    
+    "dateModified": "2024-12-14T00:00:00\u002b00:00",
+    
+    "keywords": ["Front-End","CSS"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "3069"
+  }]
+  </script>
+
+
+  
+  
+  <meta name="author" content="Mahmoud Adel" />
+  
+  
+  
+  <link href="mailto:zwebcourses@gmail.com" rel="me" />
+  
+  
+  <link href="https://bit.ly/devmahmoud" rel="me" />
+  
+  
+  <link href="https://www.facebook.com/groups/1449643049308346" rel="me" />
+  
+  
+  <link href="https://github.com/Mahmoud-FullStackee" rel="me" />
+  
+  
+  <link href="https://bit.ly/hn-laravelspa" rel="me" />
+  
+  
+  <link href="https://bit.ly/in-laravelspa" rel="me" />
+  
+  
+  <link href="https://bit.ly/linked-devmahmoud" rel="me" />
+  
+  
+  <link href="https://bit.ly/meduim-mahmoud" rel="me" />
+  
+  
+  <link href="https://bit.ly/pt-laravelspa" rel="me" />
+  
+  
+  <link href="https://bit.ly/sof-mahmoud" rel="me" />
+  
+  
+  <link href="https://t.me/&#43;Orn4XkfoT0diN2I0" rel="me" />
+  
+  
+  <link href="https://bit.ly/tk-laravelspa" rel="me" />
+  
+  
+  <link href="https://laravelspa.tumblr.com" rel="me" />
+  
+  
+  <link href="https://bit.ly/tw-laravelspa" rel="me" />
+  
+  
+  <link href="https://chat.whatsapp.com/KxYv6AFXYA2H1pD6VZn9hW" rel="me" />
+  
+  
+  <link href="https://bit.ly/yt-laravelspa" rel="me" />
+  
+  
+  
+  
+
+<script src="/blog/lib/jquery/jquery.slim.min.03cb160e3cfdb2667a2e2c80d283bebcf63ff8bbc4b629c9ab2babf6fae1d0c07ad470edae783efa4fabda2ac01c58d60e63b98b3c336be8208460f08f4354f5.js" integrity="sha512-A8sWDjz9smZ6LiyA0oO&#43;vPY/&#43;LvEtinJqyur9vrh0MB61HDtrng&#43;&#43;k&#43;r2irAHFjWDmO5izwza&#43;gghGDwj0NU9Q=="></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  <meta name="theme-color"/>
+  
+  
+</head>
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>التخطى الى المحتوى الأساسى</a>
+  </div>
+  
+  
+  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+    
+    <div class="flex flex-1 items-center justify-between">
+        <nav class="flex space-x-3">
+
+            
+            <a href="/blog/ar/" class="text-base font-medium text-gray-500 hover:text-gray-900">Dev Mahmoud</a>
+            
+
+        </nav>
+        <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
+
+            
+            
+            
+  <a href="/blog/ar/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        المدونة
+    </p>
+</a>
+
+
+
+            
+            
+  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        مشاريعى
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/blog/ar/categories/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        الأقسام
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/blog/ar/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Tags
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/blog/ar/series/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Series
+    </p>
+</a>
+
+
+
+            
+            
+
+            
+
+
+            
+            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+
+            
+            
+            <div
+                class="ltr:mr-14 rtl:ml-14 flex items-center">
+                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+                    <div class="flex items-center justify-center dark:hidden">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                    </div>
+                    <div class="items-center justify-center hidden dark:flex">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                    </div>
+                </button>
+            </div>
+            
+
+        </nav>
+        <div class="flex md:hidden items-center space-x-5 md:ml-12 h-12">
+
+            <span></span>
+
+            
+
+
+            
+            <button id="search-button-mobile" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+            
+            
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" style="margin-right:5px">
+                <div class="flex items-center justify-center dark:hidden">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                </div>
+                <div class="items-center justify-center hidden dark:flex">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                </div>
+            </button>
+            
+
+        </div>
+    </div>
+    <div class="-my-2 -mr-2 md:hidden">
+
+        <label id="menu-button" class="block">
+            
+            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+  </span>
+
+
+            </div>
+            <div id="menu-wrapper" style="padding-top:5px;"
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                <ul
+                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
+                    <li id="menu-close-button">
+                        <span
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+</span>
+                    </li>
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/blog/ar/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            المدونة
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            مشاريعى
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/blog/ar/categories/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            الأقسام
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/blog/ar/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Tags
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/blog/ar/series/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Series
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                </ul>
+                
+                
+
+            </div>
+        </label>
+    </div>
+</div>
+
+
+
+
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
+
+  
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
+      
+
+
+<article>
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      دليل شامل لفهم أساسيات JavaScript: من الأنواع إلى الأدوات
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-12-14T00:00:00&#43;00:00">14 ديسمبر 2024</time><span class="px-2 text-primary-500">&middot;</span><span>3069 كلمة</span><span class="px-2 text-primary-500">&middot;</span><span title="مدة القراءة">15 دقيقة/دقائق قراءة</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+
+
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+
+    
+      
+      
+        
+        
+<div class="flex author">
+  
+    
+    
+      
+    
+    
+      
+        
+      
+      <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
+      alt="Mahmoud Adel" src="/blog/img/mahmoud_adel_hue4ed9a7e331e638d98375b31d335e168_1104063_192x192_fill_q75_box_center.jpg" />
+    
+  
+  <div class="place-self-center">
+    
+    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+      الناشر
+    </div>
+    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+      Mahmoud Adel
+    </div>
+    
+    
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">Full Stack Developer</div>
+    
+    <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="mailto:zwebcourses@gmail.com"
+          target="_blank"
+          aria-label="Email"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://bit.ly/devmahmoud"
+          target="_blank"
+          aria-label="Dev"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M120.12 208.29c-3.88-2.9-7.77-4.35-11.65-4.35H91.03v104.47h17.45c3.88 0 7.77-1.45 11.65-4.35 3.88-2.9 5.82-7.25 5.82-13.06v-69.65c-.01-5.8-1.96-10.16-5.83-13.06zM404.1 32H43.9C19.7 32 .06 51.59 0 75.8v360.4C.06 460.41 19.7 480 43.9 480h360.2c24.21 0 43.84-19.59 43.9-43.8V75.8c-.06-24.21-19.7-43.8-43.9-43.8zM154.2 291.19c0 18.81-11.61 47.31-48.36 47.25h-46.4V172.98h47.38c35.44 0 47.36 28.46 47.37 47.28l.01 70.93zm100.68-88.66H201.6v38.42h32.57v29.57H201.6v38.41h53.29v29.57h-62.18c-11.16.29-20.44-8.53-20.72-19.69V193.7c-.27-11.15 8.56-20.41 19.71-20.69h63.19l-.01 29.52zm103.64 115.29c-13.2 30.75-36.85 24.63-47.44 0l-38.53-144.8h32.57l29.71 113.72 29.57-113.72h32.58l-38.46 144.8z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://www.facebook.com/groups/1449643049308346"
+          target="_blank"
+          aria-label="Facebook"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://github.com/Mahmoud-FullStackee"
+          target="_blank"
+          aria-label="Github"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://bit.ly/hn-laravelspa"
+          target="_blank"
+          aria-label="Hashnode"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M35.19 171.1C-11.72 217.1-11.72 294 35.19 340.9L171.1 476.8C217.1 523.7 294 523.7 340.9 476.8L476.8 340.9C523.7 294 523.7 217.1 476.8 171.1L340.9 35.19C294-11.72 217.1-11.72 171.1 35.19L35.19 171.1zM315.5 315.5C282.6 348.3 229.4 348.3 196.6 315.5C163.7 282.6 163.7 229.4 196.6 196.6C229.4 163.7 282.6 163.7 315.5 196.6C348.3 229.4 348.3 282.6 315.5 315.5z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://bit.ly/in-laravelspa"
+          target="_blank"
+          aria-label="Instagram"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://bit.ly/linked-devmahmoud"
+          target="_blank"
+          aria-label="Linkedin"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://bit.ly/meduim-mahmoud"
+          target="_blank"
+          aria-label="Medium"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M180.5,74.262C80.813,74.262,0,155.633,0,256S80.819,437.738,180.5,437.738,361,356.373,361,256,280.191,74.262,180.5,74.262Zm288.25,10.646c-49.845,0-90.245,76.619-90.245,171.095s40.406,171.1,90.251,171.1,90.251-76.619,90.251-171.1H559C559,161.5,518.6,84.908,468.752,84.908Zm139.506,17.821c-17.526,0-31.735,68.628-31.735,153.274s14.2,153.274,31.735,153.274S640,340.631,640,256C640,171.351,625.785,102.729,608.258,102.729Z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://bit.ly/pt-laravelspa"
+          target="_blank"
+          aria-label="Pinterest"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://bit.ly/sof-mahmoud"
+          target="_blank"
+          aria-label="Stack-Overflow"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M290.7 311L95 269.7 86.8 309l195.7 41zm51-87L188.2 95.7l-25.5 30.8 153.5 128.3zm-31.2 39.7L129.2 179l-16.7 36.5L293.7 300zM262 32l-32 24 119.3 160.3 32-24zm20.5 328h-200v39.7h200zm39.7 80H42.7V320h-40v160h359.5V320h-40z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://t.me/&#43;Orn4XkfoT0diN2I0"
+          target="_blank"
+          aria-label="Telegram"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://bit.ly/tk-laravelspa"
+          target="_blank"
+          aria-label="Tiktok"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://laravelspa.tumblr.com"
+          target="_blank"
+          aria-label="Tumblr"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M309.8 480.3c-13.6 14.5-50 31.7-97.4 31.7-120.8 0-147-88.8-147-140.6v-144H17.9c-5.5 0-10-4.5-10-10v-68c0-7.2 4.5-13.6 11.3-16 62-21.8 81.5-76 84.3-117.1.8-11 6.5-16.3 16.1-16.3h70.9c5.5 0 10 4.5 10 10v115.2h83c5.5 0 10 4.4 10 9.9v81.7c0 5.5-4.5 10-10 10h-83.4V360c0 34.2 23.7 53.6 68 35.8 4.8-1.9 9-3.2 12.7-2.2 3.5.9 5.8 3.4 7.4 7.9l22 64.3c1.8 5 3.3 10.6-.4 14.5z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://bit.ly/tw-laravelspa"
+          target="_blank"
+          aria-label="Twitter"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://chat.whatsapp.com/KxYv6AFXYA2H1pD6VZn9hW"
+          target="_blank"
+          aria-label="Whatsapp"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://bit.ly/yt-laravelspa"
+          target="_blank"
+          aria-label="Youtube"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+  </div>
+
+</div>
+  </div>
+</div>
+
+      
+
+      
+
+      
+      <div class="mb-5"></div>
+      
+
+    
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-10">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    محتوى المقال
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#نشأة-javascript">نشأة JavaScript</a></li>
+    <li><a href="#استخدامات-javascript">استخدامات JavaScript</a></li>
+    <li><a href="#ما-الذي-ستتعلمه">ما الذي ستتعلمه؟</a></li>
+    <li><a href="#نظرة-على-تاريخ-javascript">نظرة على تاريخ JavaScript</a></li>
+    <li><a href="#تاريخ-javascript">تاريخ JavaScript</a></li>
+    <li><a href="#كيف-كانت-مواقع-الويب-قبل-javascript">كيف كانت مواقع الويب قبل JavaScript؟</a></li>
+    <li><a href="#javascript-ليست-java">JavaScript ليست Java</a></li>
+    <li><a href="#تطور-javascript-إلى-معيار-رسمي">تطور JavaScript إلى معيار رسمي</a></li>
+    <li><a href="#إصدارات-ecmascript">إصدارات ECMAScript</a></li>
+    <li><a href="#مكانة-javascript-اليوم">مكانة JavaScript اليوم</a></li>
+    <li><a href="#التعرف-على-وحدة-التحكم-في-javascript-javascript-console"><strong>التعرف على وحدة التحكم في JavaScript (JavaScript Console)</strong></a>
+      <ul>
+        <li><a href="#ما-هي-وحدة-التحكم">ما هي وحدة التحكم؟</a></li>
+      </ul>
+    </li>
+    <li><a href="#كيفية-الوصول-إلى-وحدة-التحكم"><strong>كيفية الوصول إلى وحدة التحكم؟</strong></a></li>
+    <li><a href="#كتابة-أول-كود-في-وحدة-التحكم"><strong>كتابة أول كود في وحدة التحكم</strong></a></li>
+    <li><a href="#إنشاء-نافذة-تنبيه-alert"><strong>إنشاء نافذة تنبيه (Alert)</strong></a></li>
+    <li><a href="#اختبار-الأكواد-الصغيرة-في-وحدة-التحكم"><strong>اختبار الأكواد الصغيرة في وحدة التحكم</strong></a></li>
+    <li><a href="#لماذا-استخدام-محرر-نصوص"><strong>لماذا استخدام محرر نصوص؟</strong></a></li>
+    <li><a href="#استخدام-consolelog"><strong>استخدام <code>console.log</code></strong></a></li>
+    <li><a href="#تجربة-javascript-في-المتصفح"><strong>تجربة JavaScript في المتصفح</strong></a>
+      <ul>
+        <li><a href="#العمل-مباشرة-في-المتصفح"><strong>العمل مباشرة في المتصفح</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#لماذا-تعد-أدوات-المطور-بيئة-رائعة"><strong>لماذا تُعد أدوات المطور بيئة رائعة؟</strong></a></li>
+    <li><a href="#عرض-الأخطاء-والتحذيرات"><strong>عرض الأخطاء والتحذيرات</strong></a></li>
+    <li><a href="#رسائل-الخطأ-أثناء-الدورة"><strong>رسائل الخطأ أثناء الدورة</strong></a></li>
+    <li><a href="#كيف-تستفيد-من-وحدة-التحكم"><strong>كيف تستفيد من وحدة التحكم؟</strong></a></li>
+    <li><a href="#مقدمة-في-أنواع-البيانات"><strong>مقدمة في أنواع البيانات</strong></a></li>
+    <li><a href="#لماذا-تعتبر-أنواع-البيانات-مهمة"><strong>لماذا تعتبر أنواع البيانات مهمة؟</strong></a></li>
+    <li><a href="#التعليقات-في-جافاسكربت"><strong>التعليقات في جافاسكربت</strong></a></li>
+    <li><a href="#أهمية-التعليقات"><strong>أهمية التعليقات</strong></a></li>
+    <li><a href="#استخدام-التعليقات-في-التمارين"><strong>استخدام التعليقات في التمارين</strong></a></li>
+    <li><a href="#السلاسل-النصية-strings-في-جافاسكربت"><strong>السلاسل النصية (Strings) في جافاسكربت</strong></a></li>
+    <li><a href="#المتغيرات-في-جافاسكربت"><strong>المتغيرات في جافاسكربت</strong></a></li>
+    <li><a href="#مؤشر-السلسلة-string-index-في-جافاسكربت"><strong>مؤشر السلسلة (String Index) في جافاسكربت</strong></a></li>
+    <li><a href="#الهروب-في-السلاسل-النصية-escaping-strings"><strong>الهروب في السلاسل النصية (Escaping Strings)</strong></a>
+      <ul>
+        <li><a href="#1-استخدام-علامات-الاقتباس-داخل-السلسلة">1. <strong>استخدام علامات الاقتباس داخل السلسلة:</strong></a></li>
+        <li><a href="#2-استخدام-علامات-الاقتباس-المفردة-داخل-السلسلة">2. <strong>استخدام علامات الاقتباس المفردة داخل السلسلة:</strong></a></li>
+        <li><a href="#3-إضافة-سطر-جديد-في-السلسلة">3. <strong>إضافة سطر جديد في السلسلة:</strong></a></li>
+        <li><a href="#4-استخدام-السلاش-العكسي-backslash-في-السلسلة">4. <strong>استخدام السلاش العكسي (backslash) في السلسلة:</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#قيمة-البوليان-booleans-في-جافاسكربت"><strong>قيمة البوليان (Booleans) في جافاسكربت</strong></a>
+      <ul>
+        <li><a href="#كيف-يعمل-البوليان"><strong>كيف يعمل البوليان؟</strong></a></li>
+        <li><a href="#أمثلة-على-المقارنات-باستخدام-البوليان"><strong>أمثلة على المقارنات باستخدام البوليان:</strong></a></li>
+        <li><a href="#مقارنة-البيانات-المختلفة"><strong>مقارنة البيانات المختلفة:</strong></a></li>
+        <li><a href="#استخدام-البوليان-في-الجمل-الشرطية"><strong>استخدام البوليان في الجمل الشرطية:</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#null-و-undefined-و-nan-في-جافاسكربت"><strong><code>Null</code> و <code>Undefined</code> و <code>NaN</code> في جافاسكربت</strong></a>
+      <ul>
+        <li><a href="#null"><strong><code>null</code></strong></a></li>
+        <li><a href="#undefined"><strong><code>undefined</code></strong></a></li>
+        <li><a href="#الفرق-بين-null-و-undefined"><strong>الفرق بين <code>null</code> و <code>undefined</code>:</strong></a></li>
+        <li><a href="#nan"><strong><code>NaN</code></strong></a></li>
+        <li><a href="#مقارنة-القيم-null-و-undefined-و-nan"><strong>مقارنة القيم <code>null</code> و <code>undefined</code> و <code>NaN</code>:</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#خاتمة">خاتمة</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    محتوى المقال
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#نشأة-javascript">نشأة JavaScript</a></li>
+    <li><a href="#استخدامات-javascript">استخدامات JavaScript</a></li>
+    <li><a href="#ما-الذي-ستتعلمه">ما الذي ستتعلمه؟</a></li>
+    <li><a href="#نظرة-على-تاريخ-javascript">نظرة على تاريخ JavaScript</a></li>
+    <li><a href="#تاريخ-javascript">تاريخ JavaScript</a></li>
+    <li><a href="#كيف-كانت-مواقع-الويب-قبل-javascript">كيف كانت مواقع الويب قبل JavaScript؟</a></li>
+    <li><a href="#javascript-ليست-java">JavaScript ليست Java</a></li>
+    <li><a href="#تطور-javascript-إلى-معيار-رسمي">تطور JavaScript إلى معيار رسمي</a></li>
+    <li><a href="#إصدارات-ecmascript">إصدارات ECMAScript</a></li>
+    <li><a href="#مكانة-javascript-اليوم">مكانة JavaScript اليوم</a></li>
+    <li><a href="#التعرف-على-وحدة-التحكم-في-javascript-javascript-console"><strong>التعرف على وحدة التحكم في JavaScript (JavaScript Console)</strong></a>
+      <ul>
+        <li><a href="#ما-هي-وحدة-التحكم">ما هي وحدة التحكم؟</a></li>
+      </ul>
+    </li>
+    <li><a href="#كيفية-الوصول-إلى-وحدة-التحكم"><strong>كيفية الوصول إلى وحدة التحكم؟</strong></a></li>
+    <li><a href="#كتابة-أول-كود-في-وحدة-التحكم"><strong>كتابة أول كود في وحدة التحكم</strong></a></li>
+    <li><a href="#إنشاء-نافذة-تنبيه-alert"><strong>إنشاء نافذة تنبيه (Alert)</strong></a></li>
+    <li><a href="#اختبار-الأكواد-الصغيرة-في-وحدة-التحكم"><strong>اختبار الأكواد الصغيرة في وحدة التحكم</strong></a></li>
+    <li><a href="#لماذا-استخدام-محرر-نصوص"><strong>لماذا استخدام محرر نصوص؟</strong></a></li>
+    <li><a href="#استخدام-consolelog"><strong>استخدام <code>console.log</code></strong></a></li>
+    <li><a href="#تجربة-javascript-في-المتصفح"><strong>تجربة JavaScript في المتصفح</strong></a>
+      <ul>
+        <li><a href="#العمل-مباشرة-في-المتصفح"><strong>العمل مباشرة في المتصفح</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#لماذا-تعد-أدوات-المطور-بيئة-رائعة"><strong>لماذا تُعد أدوات المطور بيئة رائعة؟</strong></a></li>
+    <li><a href="#عرض-الأخطاء-والتحذيرات"><strong>عرض الأخطاء والتحذيرات</strong></a></li>
+    <li><a href="#رسائل-الخطأ-أثناء-الدورة"><strong>رسائل الخطأ أثناء الدورة</strong></a></li>
+    <li><a href="#كيف-تستفيد-من-وحدة-التحكم"><strong>كيف تستفيد من وحدة التحكم؟</strong></a></li>
+    <li><a href="#مقدمة-في-أنواع-البيانات"><strong>مقدمة في أنواع البيانات</strong></a></li>
+    <li><a href="#لماذا-تعتبر-أنواع-البيانات-مهمة"><strong>لماذا تعتبر أنواع البيانات مهمة؟</strong></a></li>
+    <li><a href="#التعليقات-في-جافاسكربت"><strong>التعليقات في جافاسكربت</strong></a></li>
+    <li><a href="#أهمية-التعليقات"><strong>أهمية التعليقات</strong></a></li>
+    <li><a href="#استخدام-التعليقات-في-التمارين"><strong>استخدام التعليقات في التمارين</strong></a></li>
+    <li><a href="#السلاسل-النصية-strings-في-جافاسكربت"><strong>السلاسل النصية (Strings) في جافاسكربت</strong></a></li>
+    <li><a href="#المتغيرات-في-جافاسكربت"><strong>المتغيرات في جافاسكربت</strong></a></li>
+    <li><a href="#مؤشر-السلسلة-string-index-في-جافاسكربت"><strong>مؤشر السلسلة (String Index) في جافاسكربت</strong></a></li>
+    <li><a href="#الهروب-في-السلاسل-النصية-escaping-strings"><strong>الهروب في السلاسل النصية (Escaping Strings)</strong></a>
+      <ul>
+        <li><a href="#1-استخدام-علامات-الاقتباس-داخل-السلسلة">1. <strong>استخدام علامات الاقتباس داخل السلسلة:</strong></a></li>
+        <li><a href="#2-استخدام-علامات-الاقتباس-المفردة-داخل-السلسلة">2. <strong>استخدام علامات الاقتباس المفردة داخل السلسلة:</strong></a></li>
+        <li><a href="#3-إضافة-سطر-جديد-في-السلسلة">3. <strong>إضافة سطر جديد في السلسلة:</strong></a></li>
+        <li><a href="#4-استخدام-السلاش-العكسي-backslash-في-السلسلة">4. <strong>استخدام السلاش العكسي (backslash) في السلسلة:</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#قيمة-البوليان-booleans-في-جافاسكربت"><strong>قيمة البوليان (Booleans) في جافاسكربت</strong></a>
+      <ul>
+        <li><a href="#كيف-يعمل-البوليان"><strong>كيف يعمل البوليان؟</strong></a></li>
+        <li><a href="#أمثلة-على-المقارنات-باستخدام-البوليان"><strong>أمثلة على المقارنات باستخدام البوليان:</strong></a></li>
+        <li><a href="#مقارنة-البيانات-المختلفة"><strong>مقارنة البيانات المختلفة:</strong></a></li>
+        <li><a href="#استخدام-البوليان-في-الجمل-الشرطية"><strong>استخدام البوليان في الجمل الشرطية:</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#null-و-undefined-و-nan-في-جافاسكربت"><strong><code>Null</code> و <code>Undefined</code> و <code>NaN</code> في جافاسكربت</strong></a>
+      <ul>
+        <li><a href="#null"><strong><code>null</code></strong></a></li>
+        <li><a href="#undefined"><strong><code>undefined</code></strong></a></li>
+        <li><a href="#الفرق-بين-null-و-undefined"><strong>الفرق بين <code>null</code> و <code>undefined</code>:</strong></a></li>
+        <li><a href="#nan"><strong><code>NaN</code></strong></a></li>
+        <li><a href="#مقارنة-القيم-null-و-undefined-و-nan"><strong>مقارنة القيم <code>null</code> و <code>undefined</code> و <code>NaN</code>:</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#خاتمة">خاتمة</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = decodeURIComponent(e.attr('id'));
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+           
+            $(e).removeClass('active').siblings('ul').hide();
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+         
+          $toc.find('a').parent('li').find('ul').hide();
+        
+        onScroll();
+      });
+    }
+  })();
+
+
+</script>
+   </div>
+      </div>
+      
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="article-content max-w-prose mb-20">
+          <p>مرحبًا بكم في هذا الدليل التمهيدي حول لغة <strong>JavaScript</strong>، حيث ستكون رحلتنا لاستكشاف واحدة من أقوى وأشهر لغات البرمجة على الويب. إذا كنت بالفعل على دراية باستخدام <strong>HTML</strong> و<strong>CSS</strong> لإنشاء صفحات ويب، فإن JavaScript هي القطعة الأخيرة التي تحتاج إليها لتحويل مواقعك إلى تجارب تفاعلية مليئة بالحياة.</p>
+
+
+<h2 class="relative group">نشأة JavaScript 
+    <div id="%D9%86%D8%B4%D8%A3%D8%A9-javascript" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%86%D8%B4%D8%A3%D8%A9-javascript" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>في عام 1995، قام <strong>بريندان آيك</strong> بتطوير JavaScript بهدف تسهيل إضافة العناصر التفاعلية والديناميكية إلى مواقع الويب. كانت الفكرة أن تجعل اللغة البرمجة على الويب أكثر سهولة وسرعة. ومنذ ذلك الوقت، تطورت JavaScript لتصبح لغة متعددة الاستخدامات.</p>
+
+
+<h2 class="relative group">استخدامات JavaScript 
+    <div id="%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%D8%A7%D8%AA-javascript" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%D8%A7%D8%AA-javascript" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>لم تعد JavaScript مقتصرة على إنشاء التأثيرات التفاعلية في صفحات الويب. اليوم، تُستخدم في مجموعة واسعة من التطبيقات مثل:</p>
+<ul>
+<li><strong>برمجة الروبوتات.</strong></li>
+<li><strong>كتابة سكربتات الألعاب باستخدام Unity.</strong></li>
+<li><strong>إنشاء أدوات تحرير النصوص البرمجية.</strong></li>
+</ul>
+<p>إن إمكانيات JavaScript لا حدود لها، فهي الآن جزء أساسي في تطوير تطبيقات الويب، الجوال، وحتى برامج سطح المكتب.</p>
+
+
+<h2 class="relative group">ما الذي ستتعلمه؟ 
+    <div id="%D9%85%D8%A7-%D8%A7%D9%84%D8%B0%D9%8A-%D8%B3%D8%AA%D8%AA%D8%B9%D9%84%D9%85%D9%87" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%85%D8%A7-%D8%A7%D9%84%D8%B0%D9%8A-%D8%B3%D8%AA%D8%AA%D8%B9%D9%84%D9%85%D9%87" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>خلال هذا الدليل، ستتعرف على أساسيات لغة البرمجة JavaScript، وستتعلم كيفية استخدام الأدوات الشائعة التي يعتمد عليها المبرمجون في عملهم اليومي.<br>
+بالإضافة إلى ذلك، ستتاح لك الفرصة لتطبيق ما تتعلمه عمليًا من خلال مجموعة من التمارين التي تلي كل قسم لتعزيز المفاهيم المكتسبة.</p>
+
+
+<h2 class="relative group">نظرة على تاريخ JavaScript 
+    <div id="%D9%86%D8%B8%D8%B1%D8%A9-%D8%B9%D9%84%D9%89-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-javascript" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%86%D8%B8%D8%B1%D8%A9-%D8%B9%D9%84%D9%89-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-javascript" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>قبل أن نبدأ، لنأخذ لحظة للحديث عن تاريخ هذه اللغة الرائعة وكيف أصبحت إحدى الركائز الأساسية في عالم البرمجة الحديثة.</p>
+<p><strong>لنبدأ رحلتنا مع JavaScript!</strong></p>
+
+
+<h2 class="relative group">تاريخ JavaScript 
+    <div id="%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-javascript" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-javascript" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>في عام 1995، وخلال فترة زمنية قصيرة لا تتجاوز عشرة أيام، قام <strong>بريندان آيك</strong> بابتكار JavaScript أثناء عمله مع شركة <strong>Netscape</strong> لتطوير متصفحها الشهير آنذاك، <strong>Netscape Navigator</strong>، الذي كان واحدًا من أوائل متصفحات الإنترنت. اليوم، نستخدم متصفحات أكثر حداثة مثل <strong>Google Chrome</strong> و<strong>Mozilla Firefox</strong> و<strong>Apple Safari</strong> و<strong>Microsoft Edge</strong> لتصفح الإنترنت.</p>
+
+
+<h2 class="relative group">كيف كانت مواقع الويب قبل JavaScript؟ 
+    <div id="%D9%83%D9%8A%D9%81-%D9%83%D8%A7%D9%86%D8%AA-%D9%85%D9%88%D8%A7%D9%82%D8%B9-%D8%A7%D9%84%D9%88%D9%8A%D8%A8-%D9%82%D8%A8%D9%84-javascript" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%83%D9%8A%D9%81-%D9%83%D8%A7%D9%86%D8%AA-%D9%85%D9%88%D8%A7%D9%82%D8%B9-%D8%A7%D9%84%D9%88%D9%8A%D8%A8-%D9%82%D8%A8%D9%84-javascript" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>قبل ظهور JavaScript، كانت المواقع تعتمد بشكل كامل على <strong>HTML</strong> و<strong>CSS</strong>، مع استخدام بعض الإضافات مثل <strong>Java Applets</strong> أو <strong>Plugins</strong> لإضافة وظائف تفاعلية. ولكن هذا النهج كان معقدًا وغير عملي، مما دفع إلى ابتكار JavaScript كحل أبسط وأكثر كفاءة.</p>
+
+
+<h2 class="relative group">JavaScript ليست Java 
+    <div id="javascript-%D9%84%D9%8A%D8%B3%D8%AA-java" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#javascript-%D9%84%D9%8A%D8%B3%D8%AA-java" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>من المهم توضيح أن JavaScript ليست لها علاقة بلغة <strong>Java</strong>، على الرغم من التشابه في الاسم. في البداية، كانت JavaScript تُعرف باسم <strong>LiveScript</strong>، ولكن تم تغيير الاسم إلى JavaScript كاستراتيجية تسويقية للاستفادة من الشعبية الكبيرة التي كانت تحظى بها لغة Java في ذلك الوقت.</p>
+
+
+<h2 class="relative group">تطور JavaScript إلى معيار رسمي 
+    <div id="%D8%AA%D8%B7%D9%88%D8%B1-javascript-%D8%A5%D9%84%D9%89-%D9%85%D8%B9%D9%8A%D8%A7%D8%B1-%D8%B1%D8%B3%D9%85%D9%8A" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%AA%D8%B7%D9%88%D8%B1-javascript-%D8%A5%D9%84%D9%89-%D9%85%D8%B9%D9%8A%D8%A7%D8%B1-%D8%B1%D8%B3%D9%85%D9%8A" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>مع تزايد شعبية JavaScript، ظهرت إصدارات مختلفة منها، مما أدى إلى الحاجة إلى توحيد المعايير. لذلك، تم تقديم JavaScript إلى منظمة <strong>ECMA International</strong> لتطوير معيار رسمي للغة، والذي يُعرف باسم <strong>ECMAScript</strong>.</p>
+
+
+<h2 class="relative group">إصدارات ECMAScript 
+    <div id="%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1%D8%A7%D8%AA-ecmascript" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1%D8%A7%D8%AA-ecmascript" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>الإصدارات المبكرة من المعيار مثل <strong>ES5</strong> و<strong>ES6</strong> حملت أرقامًا توضيحية، لكن مع مرور الوقت، تم الانتقال إلى استخدام أرقام تعتمد على السنوات لتسهيل دورة الإصدار. على سبيل المثال، لدينا الآن إصدارات مثل <strong>ES2016</strong> و<strong>ES2017</strong> وما بعدها.</p>
+
+
+<h2 class="relative group">مكانة JavaScript اليوم 
+    <div id="%D9%85%D9%83%D8%A7%D9%86%D8%A9-javascript-%D8%A7%D9%84%D9%8A%D9%88%D9%85" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%85%D9%83%D8%A7%D9%86%D8%A9-javascript-%D8%A7%D9%84%D9%8A%D9%88%D9%85" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>على الرغم من تعقيد تاريخ الاسم، أصبحت JavaScript واحدة من أكثر لغات البرمجة شعبية في العالم، وهي تعتبر الآن إحدى الركائز الثلاثة لتطوير واجهات الويب الأمامية (Front-End)، إلى جانب <strong>HTML</strong> و<strong>CSS</strong>.</p>
+<p><strong>الخلاصة:</strong> تطورت JavaScript من أداة بسيطة لتطوير مواقع الويب إلى لغة برمجة قوية تُستخدم في مجموعة متنوعة من التطبيقات، مما يجعلها عنصرًا لا غنى عنه في عالم البرمجة الحديثة.</p>
+
+
+<h2 class="relative group"><strong>التعرف على وحدة التحكم في JavaScript (JavaScript Console)</strong> 
+    <div id="%D8%A7%D9%84%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%84%D9%89-%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85-%D9%81%D9%8A-javascript-javascript-console" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%A7%D9%84%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%84%D9%89-%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85-%D9%81%D9%8A-javascript-javascript-console" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">ما هي وحدة التحكم؟ 
+    <div id="%D9%85%D8%A7-%D9%87%D9%8A-%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%85%D8%A7-%D9%87%D9%8A-%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85" aria-label="رابط">#</a>
+    </span>        
+    
+</h3>
+<p>وحدة التحكم في JavaScript هي أداة قوية تساعدك على كتابة وتنفيذ أكواد JavaScript مباشرة داخل المتصفح. ستعتمد عليها كثيرًا لتجربة الأكواد التي ستتعلمها خلال الدورة، فهي بيئة مرنة لاختبار الأفكار وتجربة التعليمات البرمجية بسرعة.</p>
+
+
+<h2 class="relative group"><strong>كيفية الوصول إلى وحدة التحكم؟</strong> 
+    <div id="%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D9%88%D8%B5%D9%88%D9%84-%D8%A5%D9%84%D9%89-%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D9%88%D8%B5%D9%88%D9%84-%D8%A5%D9%84%D9%89-%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>إذا كنت تستخدم <strong>Google Chrome</strong>، فإليك الخطوات:</p>
+<ol>
+<li>
+<p><strong>افتح أدوات المطور:</strong></p>
+<ul>
+<li>انقر بزر الفأرة الأيمن في أي مكان على الصفحة، ثم اختر <strong>Inspect</strong> (فحص).</li>
+<li>أو استخدم اختصارات لوحة المفاتيح:
+<ul>
+<li>على نظام <strong>Mac</strong>: اضغط على <code>Command + Option + J</code>.</li>
+<li>على نظام <strong>Windows</strong>: اضغط على <code>Ctrl + Shift + J</code>.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>فتح وحدة التحكم:</strong><br>
+بعد فتح أدوات المطور، انقر على علامة التبويب <strong>Console</strong> للوصول إلى وحدة التحكم.</p>
+</li>
+</ol>
+<p>إذا كنت تستخدم متصفحًا آخر غير Chrome، ستجد في القسم التالي خطوات خاصة بكل متصفح، ثم عد إلى وحدة التحكم لتكمل.</p>
+
+
+<h2 class="relative group"><strong>كتابة أول كود في وحدة التحكم</strong> 
+    <div id="%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D8%A3%D9%88%D9%84-%D9%83%D9%88%D8%AF-%D9%81%D9%8A-%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%83%D8%AA%D8%A7%D8%A8%D8%A9-%D8%A3%D9%88%D9%84-%D9%83%D9%88%D8%AF-%D9%81%D9%8A-%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>الآن، مع فتح وحدة التحكم، لنكتب أول سطر من كود JavaScript:</p>
+<ul>
+<li>جرّب كتابة اسمك مباشرةً.<br>
+لكنك ستواجه <strong>خطأ</strong> إذا لم تكتبه بالطريقة الصحيحة. لماذا؟<br>
+في JavaScript، يجب تمثيل النصوص كـ &ldquo;سلاسل نصية&rdquo; (Strings) عن طريق وضعها بين علامتي اقتباس، مثل:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="s2">&#34;Mahmoud&#34;</span>
+</span></span></code></pre></div></li>
+</ul>
+
+
+<h2 class="relative group"><strong>إنشاء نافذة تنبيه (Alert)</strong> 
+    <div id="%D8%A5%D9%86%D8%B4%D8%A7%D8%A1-%D9%86%D8%A7%D9%81%D8%B0%D8%A9-%D8%AA%D9%86%D8%A8%D9%8A%D9%87-alert" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%A5%D9%86%D8%B4%D8%A7%D8%A1-%D9%86%D8%A7%D9%81%D8%B0%D8%A9-%D8%AA%D9%86%D8%A8%D9%8A%D9%87-alert" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>دعنا نجرب شيئًا أكثر إثارة!<br>
+اكتب الكود التالي في وحدة التحكم لإنشاء نافذة تنبيه تعرض رسالة:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">alert</span><span class="p">(</span><span class="s2">&#34;Hello Mahmoud, how are you?&#34;</span><span class="p">);</span>
+</span></span></code></pre></div><p>عند تنفيذه، ستظهر رسالة منبثقة في المتصفح تقول: &ldquo;Hello Mahmoud, how are you?&rdquo;</p>
+
+
+<h2 class="relative group"><strong>اختبار الأكواد الصغيرة في وحدة التحكم</strong> 
+    <div id="%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D8%A3%D9%83%D9%88%D8%A7%D8%AF-%D8%A7%D9%84%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9-%D9%81%D9%8A-%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D8%A3%D9%83%D9%88%D8%A7%D8%AF-%D8%A7%D9%84%D8%B5%D8%BA%D9%8A%D8%B1%D8%A9-%D9%81%D9%8A-%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>تُعد وحدة التحكم مكانًا رائعًا لاختبار الأكواد الصغيرة أو الشفرات التي لست متأكدًا من عملها. لكن ماذا عن الأكواد الأطول؟</p>
+
+
+<h2 class="relative group"><strong>لماذا استخدام محرر نصوص؟</strong> 
+    <div id="%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D9%85%D8%AD%D8%B1%D8%B1-%D9%86%D8%B5%D9%88%D8%B5" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D9%85%D8%AD%D8%B1%D8%B1-%D9%86%D8%B5%D9%88%D8%B5" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>كتابة الأكواد مباشرةً في وحدة التحكم يمكن أن تكون مزعجة عند التعامل مع برامج أكبر، مثل:</p>
+<ul>
+<li>إذا أردت كتابة أكثر من رسالة تنبيه (Alert)، ستحتاج إلى استخدام <code>Shift + Return</code> لكل سطر جديد بدلًا من مفتاح <code>Return</code> العادي.</li>
+</ul>
+<p>لذلك، من الأفضل كتابة الكود في محرر نصوص مثل <strong>Atom</strong> أو <strong>Sublime Text</strong>، ثم نسخه ولصقه في وحدة التحكم لاختباره.</p>
+
+
+<h2 class="relative group"><strong>استخدام <code>console.log</code></strong> 
+    <div id="%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-consolelog" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-consolelog" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>بدلًا من استخدام <code>alert</code> لكل شيء، يمكنك استخدام:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Hello Mahmoud&#34;</span><span class="p">);</span>
+</span></span></code></pre></div><p>سيعرض هذا النص في وحدة التحكم بدلاً من إزعاج المستخدم برسائل تنبيه متكررة.</p>
+<p>وحدة التحكم في JavaScript أداة مثالية لتجربة الأكواد وفهم المفاهيم البرمجية، ولكنها ليست الحل الأفضل عند العمل على مشاريع كبيرة. استخدام محرر نصوص يسهل عليك تطوير برامج أطول وأكثر تعقيدًا.</p>
+
+
+<h2 class="relative group"><strong>تجربة JavaScript في المتصفح</strong> 
+    <div id="%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-javascript-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AA%D8%B5%D9%81%D8%AD" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-javascript-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AA%D8%B5%D9%81%D8%AD" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group"><strong>العمل مباشرة في المتصفح</strong> 
+    <div id="%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AA%D8%B5%D9%81%D8%AD" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%85%D8%A8%D8%A7%D8%B4%D8%B1%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%AA%D8%B5%D9%81%D8%AD" aria-label="رابط">#</a>
+    </span>        
+    
+</h3>
+<p>يمكنك تجربة أفكارك البرمجية واختبارها مباشرة في المتصفح باستخدام أدوات المطور (Developer Tools). إذا كنت معتادًا على استخدام <strong>HTML</strong> أو <strong>CSS</strong>، فقد تكون قد استخدمت أدوات المطور لتجربة تغييرات في الأنماط (Styles). الآن يمكنك استخدام نفس الأدوات لتجربة أكواد JavaScript بطريقة سهلة وآمنة.</p>
+
+
+<h2 class="relative group"><strong>لماذا تُعد أدوات المطور بيئة رائعة؟</strong> 
+    <div id="%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D8%AA%D8%B9%D8%AF-%D8%A3%D8%AF%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B7%D9%88%D8%B1-%D8%A8%D9%8A%D8%A6%D8%A9-%D8%B1%D8%A7%D8%A6%D8%B9%D8%A9" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D8%AA%D8%B9%D8%AF-%D8%A3%D8%AF%D9%88%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B7%D9%88%D8%B1-%D8%A8%D9%8A%D8%A6%D8%A9-%D8%B1%D8%A7%D8%A6%D8%B9%D8%A9" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>أدوات المطور تُعتبر بمثابة &ldquo;صندوق رمل&rdquo; (Sandbox) لتجربة الأكواد. بمعنى آخر، هي مساحة يمكنك أن تعبث فيها بالكود دون أي عواقب طويلة المدى. يمكنك استخدامها للقيام بالآتي:</p>
+<ol>
+<li><strong>تصحيح الأخطاء (Debugging):</strong>
+<ul>
+<li>إذا واجهت مشاكل في الكود، يمكنك استخدام أدوات المطور لتحديد الأخطاء وإصلاحها.</li>
+</ul>
+</li>
+<li><strong>اختبار الأكواد الجديدة:</strong>
+<ul>
+<li>جرب قطعة كود جديدة تعلمتها للتو لترى كيف تعمل.</li>
+</ul>
+</li>
+</ol>
+
+
+<h2 class="relative group"><strong>عرض الأخطاء والتحذيرات</strong> 
+    <div id="%D8%B9%D8%B1%D8%B6-%D8%A7%D9%84%D8%A3%D8%AE%D8%B7%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1%D8%A7%D8%AA" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%B9%D8%B1%D8%B6-%D8%A7%D9%84%D8%A3%D8%AE%D8%B7%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1%D8%A7%D8%AA" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>إذا قمت بفتح أي موقع يستخدم JavaScript، يمكنك رؤية الأخطاء أو التحذيرات في وحدة التحكم (Console). تعرض وحدة التحكم ما يلي:</p>
+<ol>
+<li><strong>الأخطاء:</strong>
+<ul>
+<li>عندما يكون هناك خلل في الكود.</li>
+</ul>
+</li>
+<li><strong>التحذيرات:</strong>
+<ul>
+<li>إشعارات عن أمور قد لا تؤثر حاليًا على الموقع، لكنها تستحق الانتباه.</li>
+</ul>
+</li>
+<li><strong>الإخراج الناتج عن <code>console.log</code>:</strong>
+<ul>
+<li>أي نصوص أو بيانات تمت طباعتها باستخدام هذه الطريقة.</li>
+</ul>
+</li>
+</ol>
+
+
+<h2 class="relative group"><strong>رسائل الخطأ أثناء الدورة</strong> 
+    <div id="%D8%B1%D8%B3%D8%A7%D8%A6%D9%84-%D8%A7%D9%84%D8%AE%D8%B7%D8%A3-%D8%A3%D8%AB%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%B1%D8%B3%D8%A7%D8%A6%D9%84-%D8%A7%D9%84%D8%AE%D8%B7%D8%A3-%D8%A3%D8%AB%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>خلال تعلمك في هذه الدورة، قد ترى بعض التحذيرات أو الأخطاء من المواقع التي تزورها أثناء استخدام وحدة التحكم. لا تقلق، فهذا أمر شائع للغاية ولن يؤثر على الكود الذي تكتبه أو تتعلمه.</p>
+
+
+<h2 class="relative group"><strong>كيف تستفيد من وحدة التحكم؟</strong> 
+    <div id="%D9%83%D9%8A%D9%81-%D8%AA%D8%B3%D8%AA%D9%81%D9%8A%D8%AF-%D9%85%D9%86-%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%83%D9%8A%D9%81-%D8%AA%D8%B3%D8%AA%D9%81%D9%8A%D8%AF-%D9%85%D9%86-%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li>جرب الأكواد القصيرة لتحصل على فهم فوري لعملها.</li>
+<li>تحقق من الأخطاء إذا لم تعمل الشفرة كما هو متوقع.</li>
+<li>لاحظ النتائج مباشرة لتتعلم بشكل أسرع.</li>
+</ul>
+<p>أدوات المطور في المتصفح ليست فقط لتعديل التصميم، بل هي بيئة آمنة ومرنة لتجربة أكواد JavaScript وتصحيح الأخطاء. سواء كنت تختبر فكرة جديدة أو تحاول حل مشكلة، فإن أدوات المطور هي أداة أساسية لكل مبرمج.</p>
+<p><strong>الخطوة القادمة</strong><br>
+لقد بدأت تكتشف قوة JavaScript في جعل المواقع أكثر تفاعلية وحيوية. هذا مجرد البداية، ونحن مستعدون للغوص بشكل أعمق لاستكشاف المزيد عن اللغة وكيفية استخدامها بطرق احترافية.</p>
+
+
+<h2 class="relative group"><strong>مقدمة في أنواع البيانات</strong> 
+    <div id="%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D9%81%D9%8A-%D8%A3%D9%86%D9%88%D8%A7%D8%B9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%85%D9%82%D8%AF%D9%85%D8%A9-%D9%81%D9%8A-%D8%A3%D9%86%D9%88%D8%A7%D8%B9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>كل شيء من حولنا يمكن تمثيله على شكل بيانات؛ سواء كانت نتيجة اختبارك في الرياضيات الأول، أو المحادثة التي أجريتها مع شخص عزيز، أو حتى قرارك بالجلوس لمشاهدة هذا الفيديو. <strong>البيانات</strong> هي ما يساعدنا على فهم العالم من حولنا، والتعرف على الاتجاهات، وتكوين افتراضات مدروسة، واتخاذ قرارات مستنيرة في المستقبل.</p>
+<p>في البرمجة، <strong>البيانات وأنواع البيانات</strong> تشكل الأساس لأي لغة برمجة، لأنها تساعدنا في تنظيم المعلومات وتحديد كيفية عمل برامجنا.</p>
+<p>عندما تفتح صفحتك على فيسبوك، ماذا ترى؟</p>
+<ul>
+<li><strong>اسمك</strong></li>
+<li>تاريخ آخر منشور لك</li>
+<li>قائمة بالتحديثات التي شاركتها</li>
+<li>عدد الإعجابات والتعليقات على منشوراتك<br>
+كل هذه المعلومات تم جمعها ومعالجتها لتظهر بشكل منظم لزوار صفحتك.</li>
+</ul>
+<p>وعندما تنظر إلى حسابك البنكي، ترى:</p>
+<ul>
+<li><strong>رصيد الحساب</strong></li>
+<li><strong>تفاصيل كل معاملة</strong></li>
+<li>اسم الشركة التي قمت بالشراء منها<br>
+كل هذه البيانات يتم تنظيمها وتقديمها لك بشكل مرتب.</li>
+</ul>
+
+
+<h2 class="relative group"><strong>لماذا تعتبر أنواع البيانات مهمة؟</strong> 
+    <div id="%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D8%AA%D8%B9%D8%AA%D8%A8%D8%B1-%D8%A3%D9%86%D9%88%D8%A7%D8%B9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D9%85%D9%87%D9%85%D8%A9" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%84%D9%85%D8%A7%D8%B0%D8%A7-%D8%AA%D8%B9%D8%AA%D8%A8%D8%B1-%D8%A3%D9%86%D9%88%D8%A7%D8%B9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D9%85%D9%87%D9%85%D8%A9" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>من المهم أن تكون على دراية بأنواع البيانات التي تستخدمها، وأن تعرف متى يكون من الأفضل استخدام كل نوع. في هذه الدرس، ستتعلم كيفية تعريف والتعامل مع <strong>أنواع البيانات الأولية</strong> في JavaScript مثل:</p>
+<ul>
+<li><strong>الأرقام</strong></li>
+<li><strong>السلاسل النصية (Strings)</strong></li>
+<li><strong>القيم المنطقية (Booleans)</strong></li>
+<li><strong>القيمة غير المعرفة (Undefined)</strong></li>
+</ul>
+<p>بمجرد أن تتقن هذه الأنواع من البيانات، ستتعلم كيفية <strong>تخزين البيانات في المتغيرات</strong> بحيث يمكنك إعادة استخدامها ومعالجتها في كافة أجزاء كودك.</p>
+
+
+<h2 class="relative group"><strong>التعليقات في جافاسكربت</strong> 
+    <div id="%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%82%D8%A7%D8%AA-%D9%81%D9%8A-%D8%AC%D8%A7%D9%81%D8%A7%D8%B3%D9%83%D8%B1%D8%A8%D8%AA" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%82%D8%A7%D8%AA-%D9%81%D9%8A-%D8%AC%D8%A7%D9%81%D8%A7%D8%B3%D9%83%D8%B1%D8%A8%D8%AA" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>في البرمجة، <strong>التعليقات</strong> هي وسيلة لكتابة نصوص داخل الكود بهدف توضيح ما يفعله الكود أو لتوفير تلميحات للمطورين الآخرين أو حتى لنفسك عند مراجعة الكود في وقت لاحق. بينما يفهم الكمبيوتر الكود ويقوم بتنفيذه، قد يكون من الصعب فهمه بالنسبة للبشر، خاصةً عندما يصبح الكود أكثر تعقيدًا. لذلك، يستخدم المطورون التعليقات لتوضيح أجزاء من الكود بلغات بشرية مفهومة.</p>
+<p>في <strong>جافاسكربت</strong>، هناك نوعان من التعليقات:</p>
+<ol>
+<li><strong>تعليق سطر واحد</strong>: يتم كتابته بعد <strong>علامتي مائلين مزدوجتين (//)</strong>.</li>
+<li><strong>تعليقات متعددة الأسطر</strong>: يتم كتابتها بين <em><em>علامتي مائل ونجمة (/</em> */)</em>*.</li>
+</ol>
+
+
+<h2 class="relative group"><strong>أهمية التعليقات</strong> 
+    <div id="%D8%A3%D9%87%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%82%D8%A7%D8%AA" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%A3%D9%87%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%82%D8%A7%D8%AA" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>التعليقات لا يتم تنفيذها من قبل مترجم جافاسكربت، مما يعني أنه يمكنك كتابة أي شيء تريده داخل التعليق. لكن من الأفضل أن تجعل التعليقات مفيدة وواضحة، على سبيل المثال:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// هذا تعليق يشرح الكود الذي يليه
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">word</span> <span class="o">=</span> <span class="s2">&#34;hello&#34;</span><span class="p">;</span> <span class="c1">// المتغير الذي يحتوي على الكلمة
+</span></span></span></code></pre></div><p>دعنا نأخذ مثالاً على كود كتبته في وقت سابق وكان من الصعب فهمه:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// عمل شيء هنا
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
+</span></span></code></pre></div><p>يبدو أن الكود يحتوي على <strong>دالة</strong> و <strong>حلقة تكرار</strong> وبعض المتغيرات ذات الأسماء غير الواضحة. إذا كنت قد استخدمت تعليقات توضح ما يفعله كل جزء، كان من الممكن أن يكون الأمر أسهل في الفهم. مثلاً:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// هذه الدالة تقوم بعكس ترتيب الحروف في الكلمة
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">function</span> <span class="nx">reverseWord</span><span class="p">(</span><span class="nx">word</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kd">let</span> <span class="nx">reversed</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="nx">word</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">reversed</span> <span class="o">+=</span> <span class="nx">word</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">reversed</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div>
+
+<h2 class="relative group"><strong>استخدام التعليقات في التمارين</strong> 
+    <div id="%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%82%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D9%85%D8%A7%D8%B1%D9%8A%D9%86" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%82%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D8%AA%D9%85%D8%A7%D8%B1%D9%8A%D9%86" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>في بعض التمارين في هذا الدرس، قد تجد تعليقات توضح لك تلميحات أو تعليمات لإتمام الكود. نحن نشجعك على استخدام التعليقات في <strong>كودك الشخصي</strong> لشرح أي جزء غير واضح قمت بكتابته، سواء في التمارين أو في أي مكان آخر. بذلك، ستطور عادات جيدة في البرمجة وستحسن من قابلية قراءة الكود الخاص بك إذا احتجت للرجوع إليه في المستقبل.</p>
+<p>الآن، حان الوقت للانتقال إلى أول اختبار لك، حظًا موفقًا!</p>
+
+
+<h2 class="relative group"><strong>السلاسل النصية (Strings) في جافاسكربت</strong> 
+    <div id="%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D8%B3%D9%84-%D8%A7%D9%84%D9%86%D8%B5%D9%8A%D8%A9-strings-%D9%81%D9%8A-%D8%AC%D8%A7%D9%81%D8%A7%D8%B3%D9%83%D8%B1%D8%A8%D8%AA" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D8%B3%D9%84-%D8%A7%D9%84%D9%86%D8%B5%D9%8A%D8%A9-strings-%D9%81%D9%8A-%D8%AC%D8%A7%D9%81%D8%A7%D8%B3%D9%83%D8%B1%D8%A8%D8%AA" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>لقد استخدمت السلاسل النصية من قبل، ربما دون أن تعلم ذلك. على سبيل المثال، عندما تكتب رسالة داخل دالة <code>console.log()</code>، فإن هذه الرسالة هي في الواقع سلسلة نصية في جافاسكربت. على سبيل المثال:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Hello, world!&#34;</span><span class="p">);</span>
+</span></span></code></pre></div><p>في هذا المثال، <code>&quot;Hello, world!&quot;</code> هي سلسلة نصية. <strong>السلاسل النصية</strong> يمكن أن تحتوي على أحرف فردية مثل الحرف &ldquo;h&rdquo;، أو حتى أرقام مثل السلسلة النصية <code>&quot;123&quot;</code>. المهم هنا هو أنك تحتاج لاستخدام <strong>علامات الاقتباس</strong> للإشارة إلى أن النص هو سلسلة. يمكن أن تكون هذه العلامات إما <strong>علامات اقتباس مفردة</strong> <code>'</code> أو <strong>علامات اقتباس مزدوجة</strong> <code>&quot;</code>. ولكن يجب أن تتطابق العلامات، أي لا يمكن استخدام علامات اقتباس مفردة في بداية السلسلة ومزدوجة في نهايتها.</p>
+<p>على سبيل المثال، إذا حاولت تمرير سلسلة إلى <code>console.log</code> دون استخدام العلامات، سيعود لك <strong>خطأ</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">hello</span><span class="p">);</span>
+</span></span></code></pre></div><p>في هذا المثال، سيعيد جافاسكربت خطأ من نوع <strong>ReferenceError</strong>، لأن محرك جافاسكربت يعتقد أنك تشير إلى <strong>متغير</strong> يسمى <code>hello</code> بدلاً من سلسلة نصية تحتوي على القيمة <code>&quot;hello&quot;</code>. نحن لم نتطرق بعد إلى المتغيرات، لكن المهم هنا هو <strong>تذكر استخدام علامات الاقتباس عند العمل مع السلاسل النصية</strong>.</p>
+<p>إذا قمت بإضافة العلامات بشكل صحيح، فسيتم طباعة السلسلة النصية في <strong>وحدة التحكم</strong> (console) بنجاح:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;hello&#34;</span><span class="p">);</span>
+</span></span></code></pre></div><p>الآن السلسلة ستظهر بشكل صحيح في وحدة التحكم.</p>
+
+
+<h2 class="relative group"><strong>المتغيرات في جافاسكربت</strong> 
+    <div id="%D8%A7%D9%84%D9%85%D8%AA%D8%BA%D9%8A%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D8%AC%D8%A7%D9%81%D8%A7%D8%B3%D9%83%D8%B1%D8%A8%D8%AA" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%A7%D9%84%D9%85%D8%AA%D8%BA%D9%8A%D8%B1%D8%A7%D8%AA-%D9%81%D9%8A-%D8%AC%D8%A7%D9%81%D8%A7%D8%B3%D9%83%D8%B1%D8%A8%D8%AA" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>ما الذي يمكنك فعله بالبيانات التي عملت عليها؟ حتى الآن، كانت كل البيانات التي تعاملت معها هي للاستخدام لمرة واحدة فقط. على سبيل المثال، عند تعريف سلسلة نصية مثل <code>&quot;hello&quot;</code>، يتم طباعتها ثم تنتهي، وفي النهاية تختفي هذه السلسلة. لكن ماذا لو كنت بحاجة إلى تخزين هذه البيانات لاستخدامها أو تعديلها لاحقًا؟ هنا يأتي دور <strong>المتغيرات</strong>.</p>
+<p>قد تكون قد سمعت عن المتغيرات من قبل، ربما في صفوف الرياضيات. على سبيل المثال، إذا كان لديك متغير يُسمى <strong>x</strong> وتم تعيين قيمته إلى 5، ثم لدينا التعبير <code>x + 1</code>. بما أن <code>x</code> يحتوي على القيمة 5، يمكننا استبدال <code>x</code> بالقيمة 5 ليصبح التعبير كالتالي: <code>5 + 1</code>، وهو يساوي 6.</p>
+<p>في جافاسكربت، <strong>المتغيرات</strong> تخزن البيانات تمامًا مثلما فعلنا في المثال السابق حيث خزنا القيمة 5 في المتغير <strong>x</strong>. والمتغيرات لا تقتصر على تخزين الأرقام فقط، بل يمكنك تخزين أي نوع من البيانات بداخلها.</p>
+<p>لتعريف متغير في جافاسكربت، نستخدم الكلمة المفتاحية <strong><code>let</code></strong> أو <strong><code>var</code></strong>، تليها اسم المتغير وعامل التعيين <strong><code>=</code></strong>، ثم القيمة التي تريد تخزينها داخل المتغير.</p>
+<p>على سبيل المثال، لنأخذ القط الخاص بي <strong>زوي</strong>. يمكننا إنشاء متغير يُسمى <strong>name</strong> ونخزن فيه قيمة <code>&quot;Zoe&quot;</code> (اسم القط). ولتخزين عمرها، يمكننا إنشاء متغير آخر يُسمى <strong>age</strong> ونعطيه القيمة <code>4</code>، حيث أن زوي تبلغ من العمر 4 سنوات.</p>
+<p>إليك المثال التالي:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">name</span> <span class="o">=</span> <span class="s2">&#34;Zoe&#34;</span><span class="p">;</span> <span class="c1">// تخزين اسم القط
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">age</span> <span class="o">=</span> <span class="mi">4</span><span class="p">;</span>      <span class="c1">// تخزين عمر القط
+</span></span></span></code></pre></div><p>وبمرور الوقت، عندما تحتفل زوي بعيد ميلادها القادم، يمكنني استخدام المتغير <strong>age</strong> لزيادة عمرها بمقدار واحد، وبالتالي يصبح عمرها 5 سنوات بعد التحديث.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">age</span> <span class="o">=</span> <span class="nx">age</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">// زيادة عمر زوي سنة واحدة
+</span></span></span></code></pre></div><p>وبذلك، المتغير <strong>age</strong> سيحتوي الآن على القيمة <strong>5</strong>، مما يعني أن عمر زوي أصبح 5 سنوات.</p>
+
+
+<h2 class="relative group"><strong>مؤشر السلسلة (String Index) في جافاسكربت</strong> 
+    <div id="%D9%85%D8%A4%D8%B4%D8%B1-%D8%A7%D9%84%D8%B3%D9%84%D8%B3%D9%84%D8%A9-string-index-%D9%81%D9%8A-%D8%AC%D8%A7%D9%81%D8%A7%D8%B3%D9%83%D8%B1%D8%A8%D8%AA" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%85%D8%A4%D8%B4%D8%B1-%D8%A7%D9%84%D8%B3%D9%84%D8%B3%D9%84%D8%A9-string-index-%D9%81%D9%8A-%D8%AC%D8%A7%D9%81%D8%A7%D8%B3%D9%83%D8%B1%D8%A8%D8%AA" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>في جافاسكربت، السلاسل النصية هي عبارة عن مجموعة من الأحرف (characters)، وكل حرف في السلسلة لديه <strong>مؤشر (index)</strong> خاص به. يبدأ العد من 0، أي أن أول حرف في السلسلة يكون في الموقع (المؤشر) 0، الثاني في الموقع 1، وهكذا.</p>
+<p>مثال على ذلك:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">greeting</span> <span class="o">=</span> <span class="s2">&#34;Hello&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">greeting</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span> <span class="c1">// سيطبع &#34;H&#34; لأن &#34;H&#34; هو الحرف الأول في السلسلة.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">greeting</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span> <span class="c1">// سيطبع &#34;e&#34; لأن &#34;e&#34; هو الحرف الثاني في السلسلة.
+</span></span></span></code></pre></div><p>إذا أردت الوصول إلى حرف معين في السلسلة، يمكنك استخدام <strong>الترتيب (index)</strong>. على سبيل المثال، للوصول إلى الحرف الثالث في السلسلة &ldquo;Hello&rdquo;، نكتب:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">thirdCharacter</span> <span class="o">=</span> <span class="nx">greeting</span><span class="p">[</span><span class="mi">2</span><span class="p">];</span> <span class="c1">// الحرف في المؤشر 2 هو &#34;l&#34;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">thirdCharacter</span><span class="p">);</span> <span class="c1">// سيطبع &#34;l&#34;
+</span></span></span></code></pre></div>
+
+<h2 class="relative group"><strong>الهروب في السلاسل النصية (Escaping Strings)</strong> 
+    <div id="%D8%A7%D9%84%D9%87%D8%B1%D9%88%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D8%B3%D9%84-%D8%A7%D9%84%D9%86%D8%B5%D9%8A%D8%A9-escaping-strings" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%A7%D9%84%D9%87%D8%B1%D9%88%D8%A8-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D8%B3%D9%84-%D8%A7%D9%84%D9%86%D8%B5%D9%8A%D8%A9-escaping-strings" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>أحيانًا قد تحتاج إلى تضمين أحرف خاصة في السلسلة النصية، مثل <strong>علامات الاقتباس</strong> (<code>&quot;</code> أو <code>'</code>) أو <strong>علامة العودة إلى السطر</strong> (<code>\n</code>). في هذه الحالات، نستخدم <strong>الهروب (escaping)</strong>، وهو يعني إضافة <strong>علامة backslash (<code>\</code>)</strong> قبل الحرف الخاص لتوضيح أنه جزء من السلسلة وليس له وظيفة خاصة.</p>
+<p>إليك بعض الأمثلة:</p>
+
+
+<h3 class="relative group">1. <strong>استخدام علامات الاقتباس داخل السلسلة:</strong> 
+    <div id="1-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%B9%D9%84%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%A8%D8%A7%D8%B3-%D8%AF%D8%A7%D8%AE%D9%84-%D8%A7%D9%84%D8%B3%D9%84%D8%B3%D9%84%D8%A9" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#1-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%B9%D9%84%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%A8%D8%A7%D8%B3-%D8%AF%D8%A7%D8%AE%D9%84-%D8%A7%D9%84%D8%B3%D9%84%D8%B3%D9%84%D8%A9" aria-label="رابط">#</a>
+    </span>        
+    
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">quote</span> <span class="o">=</span> <span class="s2">&#34;قال أحمد: \&#34;البرمجة ممتعة!\&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">quote</span><span class="p">);</span>  <span class="c1">// سيطبع: قال أحمد: &#34;البرمجة ممتعة!&#34;
+</span></span></span></code></pre></div>
+
+<h3 class="relative group">2. <strong>استخدام علامات الاقتباس المفردة داخل السلسلة:</strong> 
+    <div id="2-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%B9%D9%84%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%A8%D8%A7%D8%B3-%D8%A7%D9%84%D9%85%D9%81%D8%B1%D8%AF%D8%A9-%D8%AF%D8%A7%D8%AE%D9%84-%D8%A7%D9%84%D8%B3%D9%84%D8%B3%D9%84%D8%A9" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#2-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%B9%D9%84%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%A8%D8%A7%D8%B3-%D8%A7%D9%84%D9%85%D9%81%D8%B1%D8%AF%D8%A9-%D8%AF%D8%A7%D8%AE%D9%84-%D8%A7%D9%84%D8%B3%D9%84%D8%B3%D9%84%D8%A9" aria-label="رابط">#</a>
+    </span>        
+    
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">quote</span> <span class="o">=</span> <span class="s1">&#39;قال أحمد: \&#39;البرمجة ممتعة!\&#39;&#39;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">quote</span><span class="p">);</span>  <span class="c1">// سيطبع: قال أحمد: &#39;البرمجة ممتعة!&#39;
+</span></span></span></code></pre></div>
+
+<h3 class="relative group">3. <strong>إضافة سطر جديد في السلسلة:</strong> 
+    <div id="3-%D8%A5%D8%B6%D8%A7%D9%81%D8%A9-%D8%B3%D8%B7%D8%B1-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%84%D8%B3%D9%84%D8%A9" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#3-%D8%A5%D8%B6%D8%A7%D9%81%D8%A9-%D8%B3%D8%B7%D8%B1-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%84%D8%B3%D9%84%D8%A9" aria-label="رابط">#</a>
+    </span>        
+    
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">message</span> <span class="o">=</span> <span class="s2">&#34;أهلاً بك في دورة البرمجة!\nنتمنى لك التوفيق.&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">message</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// سيطبع:
+</span></span></span><span class="line"><span class="cl"><span class="c1">// أهلاً بك في دورة البرمجة!
+</span></span></span><span class="line"><span class="cl"><span class="c1">// نتمنى لك التوفيق.
+</span></span></span></code></pre></div>
+
+<h3 class="relative group">4. <strong>استخدام السلاش العكسي (backslash) في السلسلة:</strong> 
+    <div id="4-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D8%B4-%D8%A7%D9%84%D8%B9%D9%83%D8%B3%D9%8A-backslash-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%84%D8%B3%D9%84%D8%A9" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#4-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D8%B4-%D8%A7%D9%84%D8%B9%D9%83%D8%B3%D9%8A-backslash-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%84%D8%B3%D9%84%D8%A9" aria-label="رابط">#</a>
+    </span>        
+    
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">filePath</span> <span class="o">=</span> <span class="s2">&#34;C:\\Users\\Ahmed\\Documents&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">filePath</span><span class="p">);</span>  <span class="c1">// سيطبع: C:\Users\Ahmed\Documents
+</span></span></span></code></pre></div><p>باستخدام الهروب، يمكنك تضمين هذه الأحرف الخاصة داخل السلسلة النصية دون أن تؤثر على تنفيذ البرنامج.</p>
+
+
+<h2 class="relative group"><strong>قيمة البوليان (Booleans) في جافاسكربت</strong> 
+    <div id="%D9%82%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D8%A8%D9%88%D9%84%D9%8A%D8%A7%D9%86-booleans-%D9%81%D9%8A-%D8%AC%D8%A7%D9%81%D8%A7%D8%B3%D9%83%D8%B1%D8%A8%D8%AA" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%82%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D8%A8%D9%88%D9%84%D9%8A%D8%A7%D9%86-booleans-%D9%81%D9%8A-%D8%AC%D8%A7%D9%81%D8%A7%D8%B3%D9%83%D8%B1%D8%A8%D8%AA" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>في جافاسكربت، <strong>البوليان (Booleans)</strong> هو نوع من البيانات يستخدم فقط القيمتين: <strong><code>true</code></strong> (صحيح) و <strong><code>false</code></strong> (خطأ). يمكن استخدامه لتمثيل الحالات التي تعتمد على منطق <strong>نعم/لا</strong>، <strong>تشغيل/إيقاف</strong>، <strong>صحيح/خطأ</strong>، أو <strong>1/0</strong>، وهذه القيم تمثل أساس المنطق البرمجي.</p>
+
+
+<h3 class="relative group"><strong>كيف يعمل البوليان؟</strong> 
+    <div id="%D9%83%D9%8A%D9%81-%D9%8A%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D8%A8%D9%88%D9%84%D9%8A%D8%A7%D9%86" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%83%D9%8A%D9%81-%D9%8A%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D8%A8%D9%88%D9%84%D9%8A%D8%A7%D9%86" aria-label="رابط">#</a>
+    </span>        
+    
+</h3>
+<p>عند مقارنة البيانات (مثل الأرقام أو السلاسل النصية)، سيكون الناتج دائمًا <strong>قيمة بوليانية</strong>: إما <code>true</code> أو <code>false</code>. هذا يسمح لك باتخاذ قرارات منطقية بناءً على تلك المقارنات.</p>
+
+
+<h3 class="relative group"><strong>أمثلة على المقارنات باستخدام البوليان:</strong> 
+    <div id="%D8%A3%D9%85%D8%AB%D9%84%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B1%D9%86%D8%A7%D8%AA-%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%A8%D9%88%D9%84%D9%8A%D8%A7%D9%86" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%A3%D9%85%D8%AB%D9%84%D8%A9-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%85%D9%82%D8%A7%D8%B1%D9%86%D8%A7%D8%AA-%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%A8%D9%88%D9%84%D9%8A%D8%A7%D9%86" aria-label="رابط">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li><strong>مقارنة الأرقام:</strong></li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">y</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">x</span> <span class="o">&gt;</span> <span class="nx">y</span><span class="p">);</span> <span class="c1">// سيطبع false لأن 5 ليست أكبر من 10
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">x</span> <span class="o">&lt;</span> <span class="nx">y</span><span class="p">);</span> <span class="c1">// سيطبع true لأن 5 أصغر من 10
+</span></span></span></code></pre></div><ol start="2">
+<li><strong>مقارنة السلاسل النصية:</strong></li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">str1</span> <span class="o">=</span> <span class="s2">&#34;apple&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">str2</span> <span class="o">=</span> <span class="s2">&#34;orange&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">str1</span> <span class="o">===</span> <span class="nx">str2</span><span class="p">);</span> <span class="c1">// سيطبع false لأن &#34;apple&#34; لا تساوي &#34;orange&#34;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">str1</span> <span class="o">===</span> <span class="s2">&#34;apple&#34;</span><span class="p">);</span> <span class="c1">// سيطبع true لأن &#34;apple&#34; تساوي &#34;apple&#34;
+</span></span></span></code></pre></div><ol start="3">
+<li><strong>المقارنة باستخدام القيمة البوليانية مباشرة:</strong></li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">isActive</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">isActive</span><span class="p">);</span>  <span class="c1">// سيطبع true
+</span></span></span></code></pre></div>
+
+<h3 class="relative group"><strong>مقارنة البيانات المختلفة:</strong> 
+    <div id="%D9%85%D9%82%D8%A7%D8%B1%D9%86%D8%A9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D9%84%D9%81%D8%A9" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%85%D9%82%D8%A7%D8%B1%D9%86%D8%A9-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AE%D8%AA%D9%84%D9%81%D8%A9" aria-label="رابط">#</a>
+    </span>        
+    
+</h3>
+<p>عند المقارنة بين أنواع بيانات مختلفة، يمكن أن يحدث أن تكون المقارنة <strong>غير صحيحة</strong> أو <strong>تؤدي إلى تصرفات غير متوقعة</strong>. لذلك من المهم أن نعرف كيف يمكن مقارنة الأنواع المختلفة.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="mi">5</span> <span class="o">==</span> <span class="s2">&#34;5&#34;</span><span class="p">);</span>  <span class="c1">// سيطبع true لأن المقارنة لا تفرق بين الأنواع
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="mi">5</span> <span class="o">===</span> <span class="s2">&#34;5&#34;</span><span class="p">);</span> <span class="c1">// سيطبع false لأن المقارنة باستخدام === تتطلب أن تكون الأنواع متطابقة
+</span></span></span></code></pre></div>
+
+<h3 class="relative group"><strong>استخدام البوليان في الجمل الشرطية:</strong> 
+    <div id="%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%A8%D9%88%D9%84%D9%8A%D8%A7%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D9%85%D9%84-%D8%A7%D9%84%D8%B4%D8%B1%D8%B7%D9%8A%D8%A9" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%A8%D9%88%D9%84%D9%8A%D8%A7%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D8%AC%D9%85%D9%84-%D8%A7%D9%84%D8%B4%D8%B1%D8%B7%D9%8A%D8%A9" aria-label="رابط">#</a>
+    </span>        
+    
+</h3>
+<p>يتم استخدام القيم البوليانية بشكل كبير في الجمل الشرطية (مثل <code>if</code> و <code>else</code>):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">isUserLoggedIn</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="p">(</span><span class="nx">isUserLoggedIn</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Welcome, user!&#34;</span><span class="p">);</span>  <span class="c1">// سيطبع إذا كانت القيمة true
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Please log in.&#34;</span><span class="p">);</span>  <span class="c1">// سيطبع إذا كانت القيمة false
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
+</span></span></code></pre></div>
+
+<h2 class="relative group"><strong><code>Null</code> و <code>Undefined</code> و <code>NaN</code> في جافاسكربت</strong> 
+    <div id="null-%D9%88-undefined-%D9%88-nan-%D9%81%D9%8A-%D8%AC%D8%A7%D9%81%D8%A7%D8%B3%D9%83%D8%B1%D8%A8%D8%AA" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#null-%D9%88-undefined-%D9%88-nan-%D9%81%D9%8A-%D8%AC%D8%A7%D9%81%D8%A7%D8%B3%D9%83%D8%B1%D8%A8%D8%AA" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>في جافاسكربت، هناك بعض القيم التي قد تكون مربكة في البداية لأنها تبدو مشابهة، ولكنها تحمل معاني مختلفة. من بين هذه القيم، نجد <strong><code>null</code></strong> و <strong><code>undefined</code></strong> و <strong><code>NaN</code></strong>.</p>
+
+
+<h3 class="relative group"><strong><code>null</code></strong> 
+    <div id="null" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#null" aria-label="رابط">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong><code>null</code></strong> هو نوع بيانات يمثل <strong>القيمة الفارغة</strong> أو <strong>العدم</strong>. عندما تقوم بتعيين قيمة <strong><code>null</code></strong> إلى متغير، فهذا يعني أنك تعمدت تعيين قيمة فارغة أو غير موجودة.</li>
+<li>على سبيل المثال:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">x</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">x</span><span class="p">);</span>  <span class="c1">// سيطبع null
+</span></span></span></code></pre></div><p>هنا، تم تعيين المتغير <code>x</code> إلى القيمة <code>null</code>، مما يعني أن المتغير لا يحمل قيمة صالحة أو موجودة.</p>
+
+
+<h3 class="relative group"><strong><code>undefined</code></strong> 
+    <div id="undefined" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#undefined" aria-label="رابط">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong><code>undefined</code></strong> هو نوع بيانات يعبر عن <strong>غياب القيمة</strong>، ولكن <strong>ليس القيم الفارغة</strong>. إذا قمت بإعلان متغير دون إعطائه قيمة، فإن هذا المتغير يحمل قيمة <strong><code>undefined</code></strong>.</li>
+<li>على سبيل المثال:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">y</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">y</span><span class="p">);</span>  <span class="c1">// سيطبع undefined
+</span></span></span></code></pre></div><p>في هذا المثال، المتغير <code>y</code> تم إعلانه ولكنه لم يحصل على أي قيمة، لذا تكون قيمته <code>undefined</code>.</p>
+
+
+<h3 class="relative group"><strong>الفرق بين <code>null</code> و <code>undefined</code>:</strong> 
+    <div id="%D8%A7%D9%84%D9%81%D8%B1%D9%82-%D8%A8%D9%8A%D9%86-null-%D9%88-undefined" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%A7%D9%84%D9%81%D8%B1%D9%82-%D8%A8%D9%8A%D9%86-null-%D9%88-undefined" aria-label="رابط">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong><code>null</code></strong> هو <strong>قيمة فارغة</strong> تم تعيينها يدويًا.</li>
+<li><strong><code>undefined</code></strong> يشير إلى <strong>غياب القيمة</strong>، ويحدث عادة عندما يتم إعلان متغير دون تعيين قيمة له.</li>
+</ul>
+
+
+<h3 class="relative group"><strong><code>NaN</code></strong> 
+    <div id="nan" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#nan" aria-label="رابط">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong><code>NaN</code></strong> (Not a Number) هو نوع بيانات خاص يعني أن العملية الحسابية لم تُنتج عددًا صالحًا. يحدث هذا عادة عندما تحاول إجراء عملية على قيم غير قابلة للتحويل إلى أرقام.</li>
+<li>على سبيل المثال:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">result</span> <span class="o">=</span> <span class="s2">&#34;hello&#34;</span> <span class="o">*</span> <span class="mi">2</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result</span><span class="p">);</span>  <span class="c1">// سيطبع NaN لأن &#34;hello&#34; لا يمكن ضربها في عدد
+</span></span></span></code></pre></div>
+
+<h3 class="relative group"><strong>مقارنة القيم <code>null</code> و <code>undefined</code> و <code>NaN</code>:</strong> 
+    <div id="%D9%85%D9%82%D8%A7%D8%B1%D9%86%D8%A9-%D8%A7%D9%84%D9%82%D9%8A%D9%85-null-%D9%88-undefined-%D9%88-nan" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D9%85%D9%82%D8%A7%D8%B1%D9%86%D8%A9-%D8%A7%D9%84%D9%82%D9%8A%D9%85-null-%D9%88-undefined-%D9%88-nan" aria-label="رابط">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li>عند مقارنة <code>null</code> و <code>undefined</code> باستخدام <strong><code>==</code></strong>:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="kc">null</span> <span class="o">==</span> <span class="kc">undefined</span><span class="p">);</span>  <span class="c1">// سيطبع true
+</span></span></span></code></pre></div><p>هذه المقارنة تُعتبر صحيحة لأن <code>null</code> و <code>undefined</code> هما قيمتان تشير إلى غياب القيمة بطريقة غير محددة ولكن هناك فرق بينهما عند المقارنة باستخدام <strong><code>===</code></strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="kc">null</span> <span class="o">===</span> <span class="kc">undefined</span><span class="p">);</span>  <span class="c1">// سيطبع false
+</span></span></span></code></pre></div>
+
+<h2 class="relative group">خاتمة 
+    <div id="%D8%AE%D8%A7%D8%AA%D9%85%D8%A9" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%D8%AE%D8%A7%D8%AA%D9%85%D8%A9" aria-label="رابط">#</a>
+    </span>        
+    
+</h2>
+<p>لقد وصلنا إلى نهاية مقالنا حول الأساسيات التي يجب معرفتها عن JavaScript. الآن، مع الفهم العميق للغة JavaScript، من تاريخها إلى أدواتها مثل وحدة التحكم، ومن التعامل مع الأنواع المختلفة للبيانات إلى كيفية كتابة تعليقات مفيدة، أصبحت مستعدًا للمضي قدمًا في رحلتك البرمجية. تعلم JavaScript هو خطوة حاسمة في بناء تطبيقات قوية ومرنة على الويب.</p>
+<p>لا تنسَ أن الممارسة هي المفتاح! استخدم ما تعلمته هنا لتطوير مهاراتك باستمرار وتجربة الأكواد بنفسك. إذا استمريت في الاستكشاف والتطبيق، ستصبح قريبًا مطورًا متمرسًا في JavaScript.</p>
+
+          
+          
+          
+        </div>
+        
+        
+
+        
+        
+  
+  <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/blog/ar/posts/understanding-javascript-basics-from-data-types-to-tools/&amp;title=%d8%af%d9%84%d9%8a%d9%84%20%d8%b4%d8%a7%d9%85%d9%84%20%d9%84%d9%81%d9%87%d9%85%20%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a7%d8%aa%20JavaScript:%20%d9%85%d9%86%20%d8%a7%d9%84%d8%a3%d9%86%d9%88%d8%a7%d8%b9%20%d8%a5%d9%84%d9%89%20%d8%a7%d9%84%d8%a3%d8%af%d9%88%d8%a7%d8%aa"
+      title="النشر على لينكدان"
+      aria-label="النشر على لينكدان"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/blog/ar/posts/understanding-javascript-basics-from-data-types-to-tools/&amp;text=%d8%af%d9%84%d9%8a%d9%84%20%d8%b4%d8%a7%d9%85%d9%84%20%d9%84%d9%81%d9%87%d9%85%20%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a7%d8%aa%20JavaScript:%20%d9%85%d9%86%20%d8%a7%d9%84%d8%a3%d9%86%d9%88%d8%a7%d8%b9%20%d8%a5%d9%84%d9%89%20%d8%a7%d9%84%d8%a3%d8%af%d9%88%d8%a7%d8%aa"
+      title="النشر على تويتر"
+      aria-label="النشر على تويتر"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://bsky.app/intent/compose?text=%d8%af%d9%84%d9%8a%d9%84%20%d8%b4%d8%a7%d9%85%d9%84%20%d9%84%d9%81%d9%87%d9%85%20%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a7%d8%aa%20JavaScript:%20%d9%85%d9%86%20%d8%a7%d9%84%d8%a3%d9%86%d9%88%d8%a7%d8%b9%20%d8%a5%d9%84%d9%89%20%d8%a7%d9%84%d8%a3%d8%af%d9%88%d8%a7%d8%aa&#43;http://localhost:1313/blog/ar/posts/understanding-javascript-basics-from-data-types-to-tools/"
+      title="Post on Bluesky"
+      aria-label="Post on Bluesky"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256,232.562c-21.183,-41.196 -78.868,-117.97 -132.503,-155.834c-51.378,-36.272 -70.978,-29.987 -83.828,-24.181c-14.872,6.72 -17.577,29.554 -17.577,42.988c0,13.433 7.365,110.138 12.169,126.281c15.873,53.336 72.376,71.358 124.413,65.574c2.66,-0.395 5.357,-0.759 8.089,-1.097c-2.68,0.429 -5.379,0.796 -8.089,1.097c-76.259,11.294 -143.984,39.085 -55.158,137.972c97.708,101.165 133.908,-21.692 152.484,-83.983c18.576,62.291 39.972,180.718 150.734,83.983c83.174,-83.983 22.851,-126.674 -53.408,-137.969c-2.71,-0.302 -5.409,-0.667 -8.089,-1.096c2.732,0.337 5.429,0.702 8.089,1.096c52.037,5.785 108.54,-12.239 124.413,-65.574c4.804,-16.142 12.169,-112.847 12.169,-126.281c-0,-13.434 -2.705,-36.267 -17.577,-42.988c-12.85,-5.806 -32.45,-12.09 -83.829,24.181c-53.634,37.864 -111.319,114.635 -132.502,155.831Z"/></svg>
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://reddit.com/submit/?url=http://localhost:1313/blog/ar/posts/understanding-javascript-basics-from-data-types-to-tools/&amp;resubmit=true&amp;title=%d8%af%d9%84%d9%8a%d9%84%20%d8%b4%d8%a7%d9%85%d9%84%20%d9%84%d9%81%d9%87%d9%85%20%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a7%d8%aa%20JavaScript:%20%d9%85%d9%86%20%d8%a7%d9%84%d8%a3%d9%86%d9%88%d8%a7%d8%b9%20%d8%a5%d9%84%d9%89%20%d8%a7%d9%84%d8%a3%d8%af%d9%88%d8%a7%d8%aa"
+      title="النشر على ريديت"
+      aria-label="النشر على ريديت"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:1313/blog/ar/posts/understanding-javascript-basics-from-data-types-to-tools/&amp;description=%d8%af%d9%84%d9%8a%d9%84%20%d8%b4%d8%a7%d9%85%d9%84%20%d9%84%d9%81%d9%87%d9%85%20%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a7%d8%aa%20JavaScript:%20%d9%85%d9%86%20%d8%a7%d9%84%d8%a3%d9%86%d9%88%d8%a7%d8%b9%20%d8%a5%d9%84%d9%89%20%d8%a7%d9%84%d8%a3%d8%af%d9%88%d8%a7%d8%aa"
+      title="النشر على بينترست"
+      aria-label="النشر على بينترست"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/blog/ar/posts/understanding-javascript-basics-from-data-types-to-tools/&amp;quote=%d8%af%d9%84%d9%8a%d9%84%20%d8%b4%d8%a7%d9%85%d9%84%20%d9%84%d9%81%d9%87%d9%85%20%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a7%d8%aa%20JavaScript:%20%d9%85%d9%86%20%d8%a7%d9%84%d8%a3%d9%86%d9%88%d8%a7%d8%b9%20%d8%a5%d9%84%d9%89%20%d8%a7%d9%84%d8%a3%d8%af%d9%88%d8%a7%d8%aa"
+      title="النشر على فيسبوك"
+      aria-label="النشر على فيسبوك"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="mailto:?body=http://localhost:1313/blog/ar/posts/understanding-javascript-basics-from-data-types-to-tools/&amp;subject=%d8%af%d9%84%d9%8a%d9%84%20%d8%b4%d8%a7%d9%85%d9%84%20%d9%84%d9%81%d9%87%d9%85%20%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a7%d8%aa%20JavaScript:%20%d9%85%d9%86%20%d8%a7%d9%84%d8%a3%d9%86%d9%88%d8%a7%d8%b9%20%d8%a5%d9%84%d9%89%20%d8%a7%d9%84%d8%a3%d8%af%d9%88%d8%a7%d8%aa"
+      title="إرسال عبر البريد الإلكترونى"
+      aria-label="إرسال عبر البريد الإلكترونى"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://api.whatsapp.com/send?text=http://localhost:1313/blog/ar/posts/understanding-javascript-basics-from-data-types-to-tools/&amp;resubmit=true&amp;title=%d8%af%d9%84%d9%8a%d9%84%20%d8%b4%d8%a7%d9%85%d9%84%20%d9%84%d9%81%d9%87%d9%85%20%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a7%d8%aa%20JavaScript:%20%d9%85%d9%86%20%d8%a7%d9%84%d8%a3%d9%86%d9%88%d8%a7%d8%b9%20%d8%a5%d9%84%d9%89%20%d8%a7%d9%84%d8%a3%d8%af%d9%88%d8%a7%d8%aa"
+      title="Share via WhatsApp"
+      aria-label="Share via WhatsApp"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+      
+      <a
+      target="_blank"
+      class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+      href="https://t.me/share/url?url=http://localhost:1313/blog/ar/posts/understanding-javascript-basics-from-data-types-to-tools/&amp;resubmit=true&amp;title=%d8%af%d9%84%d9%8a%d9%84%20%d8%b4%d8%a7%d9%85%d9%84%20%d9%84%d9%81%d9%87%d9%85%20%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a7%d8%aa%20JavaScript:%20%d9%85%d9%86%20%d8%a7%d9%84%d8%a3%d9%86%d9%88%d8%a7%d8%b9%20%d8%a5%d9%84%d9%89%20%d8%a7%d9%84%d8%a3%d8%af%d9%88%d8%a7%d8%aa"
+      title="Share via Telegram"
+      aria-label="Share via Telegram"
+      >
+      
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
+
+  </span>
+
+
+    </a>
+      
+    
+  </section>
+
+
+          
+      </div>
+     
+      
+      
+        
+        
+          
+          
+        
+      <script>
+        var oid = "views_posts\\21.Javascript Basics\\index.md"
+        var oid_likes = "likes_posts\\21.Javascript Basics\\index.md"
+      </script>
+      
+      
+      <script type="text/javascript" src="/blog/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+      
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/blog/ar/posts/how-loops-work-in-javascript/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >كيف تعمل الحلقات التكرارية في JavaScript؟</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-12-14T00:00:00&#43;00:00">14 ديسمبر 2024</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="انتقل إلى أعلى" title="انتقل إلى أعلى">
+    &uarr;
+  </a>
+</div>
+    </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+    <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex flex-col list-none sm:flex-row">
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/blog/ar/privacy-policy/"
+            title="">
+            
+            سياسة الخصوصية
+          </a>
+        </li>
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/blog/ar/terms-and-conditions/"
+            title="">
+            
+            الشروط والأحكام
+          </a>
+        </li>
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/blog/ar/subscribe/"
+            title="">
+            
+            تابعنى
+          </a>
+        </li>
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/blog/ar/contact-us/"
+            title="">
+            
+            تواصل معى
+          </a>
+        </li>
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/blog/ar/about-us/"
+            title="">
+            
+            من نحن
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+    
+  
+  <div class="flex items-center justify-between">
+
+    
+    
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      &copy;
+      2024
+      Mahmoud Adel
+    </p>
+    
+
+    
+    
+
+  </div>
+  <script>
+    
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+      margin: 24,
+      background: 'rgba(0,0,0,0.5)',
+      scrollOffset: 0,
+    })
+    
+  </script>
+  
+  
+  <script type="text/javascript" src="/blog/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://localhost:1313/blog/ar/"
+  style="z-index:500"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="إبحث"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="إقفل (Esc)"
+      >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+  </div>
+</body>
+
+</html>
