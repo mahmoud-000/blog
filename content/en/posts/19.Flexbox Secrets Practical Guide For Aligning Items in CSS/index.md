@@ -1,6 +1,6 @@
 ---
 title: "Flexbox Secrets: A Practical Guide to Distributing Elements in CSS"
-date: 2024-12-09
+date: 2024-12-22
 draft: false
 slug: "flexbox-secrets-practical-guide-for-aligning-items-in-css"
 cascade:
