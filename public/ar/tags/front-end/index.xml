@@ -6,8 +6,38 @@
     <description>Recent content in Front-End on Dev Mahmoud</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ar</language>
-    <copyright>© 2024 Mahmoud Adel</copyright>
-    <lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/ar/tags/front-end/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 Mahmoud Adel</copyright>
+    <lastBuildDate>Mon, 30 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/ar/tags/front-end/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>5 طرق مبتكرة لإنشاء مشروع واجهة تفاعلية لاختيار الدولة والمدينة باستخدام Vite وأدوات مختلفة</title>
+      <link>http://localhost:1313/blog/ar/posts/interactive-country-city-selector-with-vite/</link>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/posts/interactive-country-city-selector-with-vite/</guid>
+      <description>إنشاء واجهة تفاعلية لاختيار الدولة والمدينة يُعد من العناصر الأساسية في العديد من التطبيقات والمواقع.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/interactive-country-city-selector-with-vite/featured.png" />
+    </item>
+    
+    <item>
+      <title>هل تحتاج إلى تصميم صفحة ويب احترافية؟ تعلم CSS Grid اليوم!</title>
+      <link>http://localhost:1313/blog/ar/posts/css-grid-design-page-professionally/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/posts/css-grid-design-page-professionally/</guid>
+      <description>هل ترغب في إتقان فن ترتيب العناصر على صفحات الويب بشكل احترافي؟ إذًا، قد حان الوقت لتتعرف على قوة CSS Grid!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/css-grid-design-page-professionally/featured.png" />
+    </item>
+    
+    <item>
+      <title>أسرار Flexbox: دليل عملي لتوزيع العناصر في CSS</title>
+      <link>http://localhost:1313/blog/ar/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/</link>
+      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/ar/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/</guid>
+      <description>هل سبق وأن شعرت بالإحباط أثناء محاولة محاذاة العناصر على موقعك باستخدام CSS؟ ربما قضيت ساعات في تجربة مختلف القيم لتحديد المواقع، دون أن تصل إلى النتيجة المثالية.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/featured.png" />
+    </item>
     
     <item>
       <title>CSS من البداية إلى الاحتراف: كيف تصمم صفحات ويب مرنة ومبهرّة</title>
@@ -17,16 +47,6 @@
       <guid>http://localhost:1313/blog/ar/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/</guid>
       <description>إذا كنت ترغب في فهم أعمق لكيفية عمل مواقع الويب والتصميمات، فأنت بحاجة إلى النظر إلى ما وراء الأكواد.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/featured.png" />
-    </item>
-    
-    <item>
-      <title>أسرار Flexbox: دليل عملي لتوزيع العناصر في CSS</title>
-      <link>http://localhost:1313/blog/ar/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/</link>
-      <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/blog/ar/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/</guid>
-      <description>هل سبق وأن شعرت بالإحباط أثناء محاولة محاذاة العناصر على موقعك باستخدام CSS؟ ربما قضيت ساعات في تجربة مختلف القيم لتحديد المواقع، دون أن تصل إلى النتيجة المثالية.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/ar/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/featured.png" />
     </item>
     
     <item>

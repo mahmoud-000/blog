@@ -3,24 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/blog/en/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/</loc>
-    <lastmod>2024-12-09T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/en/posts/interactive-country-city-selector-with-vite/</loc>
+    <lastmod>2024-12-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="ar"
-      href="http://localhost:1313/blog/ar/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/"
+      href="http://localhost:1313/blog/ar/posts/interactive-country-city-selector-with-vite/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="http://localhost:1313/blog/en/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/"
+      href="http://localhost:1313/blog/en/posts/interactive-country-city-selector-with-vite/"
     />
   </url>
   <url>
     <loc>http://localhost:1313/blog/en/</loc>
-    <lastmod>2024-12-09T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -36,7 +36,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/blog/en/posts/</loc>
-    <lastmod>2024-12-09T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-30T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -48,6 +48,54 @@
       rel="alternate"
       hreflang="en"
       href="http://localhost:1313/blog/en/posts/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/en/posts/css-grid-design-page-professionally/</loc>
+    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="ar"
+      href="http://localhost:1313/blog/ar/posts/css-grid-design-page-professionally/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/blog/en/posts/css-grid-design-page-professionally/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/en/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/</loc>
+    <lastmod>2024-12-22T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="ar"
+      href="http://localhost:1313/blog/ar/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/blog/en/posts/flexbox-secrets-practical-guide-for-aligning-items-in-css/"
+    />
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/en/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/</loc>
+    <lastmod>2024-12-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="ar"
+      href="http://localhost:1313/blog/ar/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="http://localhost:1313/blog/en/posts/css-from-beginner-to-expert-flexible-stunning-web-pages/"
     />
   </url>
   <url>
