@@ -12,9 +12,10 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository (with submodules)
         uses: actions/checkout@v3
         with:
+          submodules: recursive   # يسحب الثيم وكل الـ submodules اللي جواه
           fetch-depth: 0
 
       - name: Setup Hugo
