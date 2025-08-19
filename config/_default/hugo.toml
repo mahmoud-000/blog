@@ -6,7 +6,7 @@ theme = "blowfish" # UNCOMMENT THIS LINE
 baseURL = "https://mahmoud-000.github.io/blog/"
 
 defaultContentLanguageInSubdir = true
-defaultContentLanguage = "ar"
+defaultContentLanguage = "en"
 
 pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
